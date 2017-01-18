@@ -1,5 +1,5 @@
 ##Session 2 - Disiciplinary repositories and metadata  
-[back to syllabus](syllabus.md)  |  [slide deck](http://tibbben.github.io/teaching.data.literacy/UM_DataCurationWorkshops/slides/slides02.html) 
+[back to syllabus](syllabus.md)  |  [slide deck](slides/slides02.html) 
 
 ---
 

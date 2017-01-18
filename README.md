@@ -1,6 +1,6 @@
-# teaching.data.literacy
+# school.of.data
 
-This repository contains materials and resources for teaching data information literacy.  
+This repository contains curriculum and materials for research data management and data wrangling.  
 
 If you are not looking for the repository, but simply the curriculum materials, please see the [hosted version](http://tibbben.github.io/school.of.data/). 
 
