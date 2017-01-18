@@ -2,7 +2,7 @@
 
 This folder contains the *working* syllabus and lectures for a two-unit data management class to be taught at the Rosensteil School of Marine and Atmospherics Sciences at the University of Miami in the Spring of 2016.
 
-Please see the [hosted version](http://tibbben.github.io/teaching.data.literacy/UM_DataManagementClass/DMClassSyllabus.html) for more information.
+Please see the [hosted version](http://tibbben.github.io/school.of.data/UM_DataManagementClass/DMClassSyllabus.html) for more information.
 
 Questions or comments please contact [Timothy Norris](mailto:tnorris@miami.edu)
 
