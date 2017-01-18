@@ -192,8 +192,8 @@ here?*
     Data: File Formats and Software.
     [*http://www.data-archive.ac.uk/create-manage/format/formats*](http://www.data-archive.ac.uk/create-manage/format/formats).
     (follow “Recommended File Formats” link as well).
--   Library of Congress (2015). Recommended Formats Statement 2015-2016.
-    [*https://www.loc.gov/preservation/resources/rfs/RFS%202015-2016.pdf*](https://www.loc.gov/preservation/resources/rfs/RFS%202015-2016.pdf).
+-   Library of Congress (2016). Recommended Formats Statement 2016-2017.
+    [*http://www.loc.gov/preservation/resources/rfs/RFS%202016-2017.pdf*](http://www.loc.gov/preservation/resources/rfs/RFS%202016-2017.pdf).
 	
 > Optional Reading
 
