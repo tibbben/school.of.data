@@ -123,7 +123,7 @@ here?*
 -   Holdren, J (2013). *Increasing Access to the Results of Federally
     Funded Scientific Research*. Office of Science and Technology
     Policy, Executive Office of the President.
-    [*https://www.whitehouse.gov/sites/default/files/microsites/ostp/ostp\_public\_access\_memo\_2013.pdf*](https://www.whitehouse.gov/sites/default/files/microsites/ostp/ostp_public_access_memo_2013.pdf)
+    [*https://obamawhitehouse.archives.gov/sites/default/files/microsites/ostp/ostp_public_access_memo_2013.pdf*](https://obamawhitehouse.archives.gov/sites/default/files/microsites/ostp/ostp_public_access_memo_2013.pdf)
 -   National
     Science Foundation. *Dissemination and Sharing of Research Results*.
     [*http://www.nsf.gov/bfa/dias/policy/dmp.jsp*](http://www.nsf.gov/bfa/dias/policy/dmp.jsp)
@@ -163,6 +163,7 @@ here?*
     of Research Data in the Digital Age*. National Academies Press,
     Washington D.C.
     [*http://www.nap.edu/catalog/12615/ensuring-the-integrity-accessibility-and-stewardship-of-research-data-in-the-digital-age*](http://www.nap.edu/catalog/12615/ensuring-the-integrity-accessibility-and-stewardship-of-research-data-in-the-digital-age)
+-   Office of Management and Budget (2013). Open Data Policy—Managing Information as an Asset. [https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2013/m-13-13.pdf](https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2013/m-13-13.pdf)
 -   Choose a DMP to read from
     [*https://dmptool.org/public\_dmps*](https://dmptool.org/public_dmps).
     NOTE: “They are not vetted for quality, completeness, or adherence
