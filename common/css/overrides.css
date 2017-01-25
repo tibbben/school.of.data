@@ -8,3 +8,14 @@ section {
    padding: 0px !important;
    /* max-height: 85% !important; */
 }
+@media print {
+  body {
+	padding: none !important;
+    font-size:9pt !important;
+	color: #727272;
+  }
+  #main {
+	  width: 100% !important; 
+	  max-width: 100% !important;
+  }
+}

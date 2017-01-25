@@ -12,11 +12,11 @@ Lesson 2
 
 *__Class 1__*  
 
-0. Housekeeping (5 minutes)
-1. Review and expand upon data life cycle (lecture 5 minutes) i
+0. Housekeeping (5 minutes)  
+1. Review and expand upon data life cycle (lecture 5 minutes)
   - Research Data Lifecycle and Data Curation Lifecycle (latter as part of former)
-  - note that data curation/management is a hot topic currently
-2. Reflect for a moment: how is your research funded? What Data Management requirements do you have? (write it down - 2 minutes. If you don't have any, think of your career goals)
+  - note that data curation/management is a hot topic currently  
+2. Reflect for a moment: how is your research funded? What Data Management requirements do you have? (write it down - 2 minutes. If you don't have any, think of your career goals)  
 3. Review readings (discussion/lecture 15 minutes)
   - Any words starting to jump out as common themes? (metadata, repositories, stored indefinately, accessible, disciplinary practice, intellectual property, security [privacy],interoperability, embargo, ontologies, schemas)
     - see if they can make list on board
