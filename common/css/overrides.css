@@ -10,8 +10,8 @@ section {
 }
 @media print {
   body {
-	padding: none !important;
-    font-size:9pt !important;
+	padding: 0px !important;
+    font-size: 9pt !important;
 	color: #727272;
   }
   #main {
