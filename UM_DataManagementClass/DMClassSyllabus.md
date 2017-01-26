@@ -173,6 +173,8 @@ here?*
 > Assignment \#1: write a one-page evaluation of the strengths and
 > weaknesses of a DMP (can be from your research lab)
 
+> [slide deck](slides/slides02.html) [...](lessons/lesson02.html)
+
 *__Week 3:__ Data Types, Stages, and Formats* \[ TURN IN ASSIGNMENT \#1 \]
 
 > Describe the difference between data types, data stages, and data formats and then relate these concepts in the research environment.
@@ -202,6 +204,8 @@ here?*
     Naming Conventions.
     [*http://acrl.ala.org/techconnect/post/an-elevator-pitch-for-file-naming-conventions*](http://acrl.ala.org/techconnect/post/an-elevator-pitch-for-file-naming-conventions).
 
+> [slide deck](slides/slides03.html) [...](lessons/lesson03.html)	
+	
 *__Week 4:__ Data Storage, Backup and Security*
 
 > Design data storage and backup strategies for the stages of your
@@ -228,6 +232,8 @@ here?*
     [*http://bit.ly/1Ll8gl7*](http://bit.ly/1Ll8gl7).
 -   Rosenthal, “Estimating storage costs.”
     [*http://blog.dshr.org/2013/11/estimating-storage-costs.html\#more*](http://blog.dshr.org/2013/11/estimating-storage-costs.html#more).
+
+> [slide deck](slides/slides04.html) [...](lessons/lesson04.html)	
 	
 *__Week 5:__ Sharing and Reuse: Intellectual Property and Licensing*
 
@@ -261,6 +267,8 @@ here?*
 
 > Assignment \#2: write a one-paragraph statement on sharing and access policy (can be for your research lab, your internship, or some other relevant work)
 
+> [slide deck](slides/slides05.html) [...](lessons/lesson05.html)	
+
 *__Week 6:__ Data Curation Profiles* \[ TURN IN ASSIGNMENT \#2 \]
 
 > Introduce the data curation profile.
@@ -281,6 +289,8 @@ here?*
 > Midterm Project Assignment: Choose three questions from the data
 > curation profile toolkit relevant to your work. Write responses to the
 > questions (1-3 paragraphs each response).
+
+> [slide deck](slides/slides06.html) [...](lessons/lesson06.html)	
 
 *__Week 7:__ Introduction to the BASH shell*
 
