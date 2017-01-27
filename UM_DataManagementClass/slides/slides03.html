@@ -1,0 +1,195 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../../common/css/reveal.css">
+        <link rel="stylesheet" href="../../common/css/white.css">
+        <link rel="stylesheet" href="../../common/css/overrides.css">
+	    <script src="../../common/java/print.js"></script>
+        <title>Research Data Management - 02</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+
+                <section data-background-image="../../common/assets/DataCurationCover.png">
+                    <div style="position: absolute; left: 340px; top: 125px; font-size: 150%; line-height: 100%;"><strong>Data Management in the<br>Research Environment</strong></div>
+                    <div style="position: absolute; left: 750px; top: 285px; font-size: 90%">RSM 674 Spring <script>var today = new Date();document.write(today.getFullYear());</script></div>
+                    <div style="position: absolute; left: 460px; top: 390px; font-size: 50%; text-align: left">Dr. Timothy Norris - Data Curation Fellow - <a href="mailto:tnorris@miami.edu" style="color: #222 !important; text-decoration: underline;">tnorris@miami.edu</a><br>Angela Clark - Librarian Associate Professor RSMAS - <a href="mailto:tnorris@miami.edu" style="color: #222 !important; text-decoration: underline;">aclark@rsmas.miami.edu</a></div>
+		        </section>
+				
+	            <section>
+					<div style="font-weight: bold; font-size: 110%;">Todays Outline</div>
+					<div style="width: 35%; margin-left: 35%; margin-right: 30%; font-size: 85%; text-align: left; top: 130px; line-height: 120%; position: relative; top: 23px;">
+						<ul style="font-size: 80%;">
+							<li style="position: relative; left: 23px; top: 20px;">Categorizing Data
+							<li style="position: relative; left: 23px; top: 20px;">Data in the Research Data Lifecycle
+						</ul>
+					</div>
+					<br><br><br>
+                </section>
+
+	            <section>
+					<div style="width: 400px; height: 580px; font-size: 110%; font-weight: bold; text-align: left; margin-left: 30%; margin-right: auto; position: relative;top: -20px;">On Data</div>
+					
+					<div style="width: 400px; font-size: 82%; font-weight: bold; text-align: left; left: 80px; top: 100px; position: absolute;">Qualitative - Quantitative</div>
+					<div style="width: 250px; font-size: 65%; text-align: left; left: 0px; top: 20px; position: absolute;">Non-numeric<br>Text, Image, Sound</div>
+					<div style="width: 250px; font-size: 65%; text-align: left; left: 280px; top: 150px; position: absolute;">Nominal, Ordinal, Interval, Ratio</div>
+
+					<div style="width: 650px; font-size: 82%; font-weight: bold; text-align: left; left: 80px; top: 420px; position: absolute;">Captured, Exhaust, Transient, Derived</div>
+					<div style="width: 250px; font-size: 65%; text-align: left; left: 0px; top: 310px; position: absolute;">Observed<br>Experimental,<br>Modeled</div>
+					<div style="width: 250px; font-size: 65%; text-align: left; left: 230px; top: 475px; position: absolute;">Modeled<br>Technical Metadata</div>
+					<div style="width: 250px; font-size: 65%; text-align: left; left: 355px; top: 380px; position: absolute;">Non-Observed</div>
+					<div style="width: 3000px; font-size: 65%; text-align: left; left: 550px; top: 475px; position: absolute;">Not "Raw"<br>Levels (more in a moment)</div>
+
+					<div style="width: 850px; font-size: 82%; font-weight: bold; text-align: left; left: 710px; top: 80px; position: absolute;">Structured, Semi-structured, Unstructured</div>
+					<div style="width: 250px; font-size: 65%; text-align: left; left: 880px; top: 0px; position: absolute;">Irregular, Flexible<br>Nested, Trees, Tagged</div>
+					<div style="width: 250px; font-size: 65%; text-align: left; left: 650px; top: 135px; position: absolute;">Data model, Schema,<br>Relational Database</div>
+				
+					<div style="width: 850px; font-size: 82%; font-weight: bold; text-align: left; left: 450px; top: 280px; position: absolute;">Indexical, Attribute, Metadata</div>
+					<div style="width: 250px; font-size: 65%; text-align: left; left: 400px; top: 245px; position: absolute;">Identifiers</div>
+					<div style="width: 250px; font-size: 65%; text-align: left; left: 810px; top: 245px; position: absolute;">Descriptions</div>
+					<div style="width: 250px; font-size: 65%; text-align: left; left: 580px; top: 330px; position: absolute;">Characteristics</div>
+					
+					<div style="width: 850px; font-size: 82%; font-weight: bold; text-align: left; left: 890px; top: 380px; position: absolute;">Primary, Secondary, Tertiary</div>
+					<div style="width: 250px; font-size: 65%; text-align: left; left: 1040px; top: 310px; position: absolute;">Incorporated<br>Re-used</div>
+					<div style="width: 250px; font-size: 65%; text-align: left; left: 800px; top: 425px; position: absolute;">Created, Collected</div>
+					<div style="width: 250px; font-size: 65%; text-align: left; left: 1220px; top: 425px; position: absolute;">Released<br>Truncated</div>
+					
+					<div style="position: relative; width: 80%; font-size: 50%; line-heigt: normal; top: 20px; margin-left: auto; margin-right: auto;">Kitchin, R (2014). “Conceptualizing Data” in Kitchin, R The Data Revolution. Washington DC: Sage.<br>
+						<a href="http://uk.sagepub.com/sites/default/files/upm-binaries/63923_Kitchin_CH1.pdf">http://uk.sagepub.com/sites/default/files/upm-binaries/63923_Kitchin_CH1.pdf</a></div>
+                </section>
+
+	            <section>
+					<div style="font-weight: bold; font-size: 110%;">Promoting the Stewardship of Research Data</div>
+					<div style="width: 70%; margin-left: auto; margin-right: auto; font-size: 85%; text-align: left; top: 130px; line-height: 120%; position: relative; top: 23px;">
+						<ul style="font-size: 80%;">
+							<li style="position: relative; left: 23px; top: 20px;">National Academy of the Sciences - 
+							<ul style="font-size: 85%">
+								<li>Committee on Ensuring the Utility and Integrity of Research Data in a Digital Age
+								<li><a href="http://www.nap.edu/author/COSEPUP">Committee on Science, Engineering, and Public Policy</a>
+								<li><a href="http://www.nap.edu/author/PGA">Policy and Global Affairs</a>
+								<li><a href="http://www.nap.edu/author/IOM">Institute of Medicine</a>
+							</ul><br>
+							<li style="position: relative; left: 23px; top: 20px;">Keywords??<br><br>
+							<li style="position: relative; left: 23px; top: 20px;">Value
+							<ul style="font-size: 85%">
+								<li>how does the value of data change over time?
+								<li>why is some data more valuable than others?
+								<li>what kinds of value are there?
+							</ul>
+						</ul>
+					</div>
+					<br><br><br>
+                </section>				
+
+	            <section>
+					<div style="font-weight: bold; font-size: 110%;">The 2013 OMB Memorandum</div>
+					<div style="width: 70%; margin-left: auto; margin-right: auto; font-size: 85%; text-align: left; top: 130px; line-height: 120%; position: relative; top: 23px;">
+						<ul style="font-size: 80%;">
+							<li style="position: relative; left: 23px;">Value – “manage information as an asset throughout its lifecycle”
+							<li style="position: relative; left: 23px; top: 30px;">Privacy, security, ownership
+
+							<li style="position: relative; left: 23px; top: 60px;">Data:<br>
+								<span style="position: relative; top: 10px; font-size: 90%">“refers to all structured information, unless otherwise noted.”</span>
+							<li style="position: relative; left: 23px; top: 100px;">Information Life Cycle<br>
+								<span style="position: relative;  top: 10px; font-size: 90%">“means the stages through which information passes, typically characterized as creation, collection processing, dissemination, use, storage, and disposition.”</span>
+					</div>
+					<br><br><br><br><br>
+                </section>	
+				
+	            <section>
+					<div style="font-weight: bold; font-size: 110%;">The 2013 OMB Memorandum</div>
+					<div style="width: 60%; margin-left: auto; margin-right: auto; font-size: 85%; text-align: left; top: 130px; line-height: 120%; position: relative; top: 23px;">
+						<ul style="font-size: 80%;">
+							<li style="position: relative; left: 23px; top: 20px;">Policy Requirements
+							<ul style="font-size: 85%">
+								<li>Collect information in a way that supports downstream use
+								<li>Machine readable formats
+								<li>Use data standards
+								<li>Open licenses
+								<li>Common core and extensible metadata
+							</ul><br>
+					</div>
+					<div style="position: absolute; bottom: 100px; right: 90px; width: 70%; text-align: right; font-size: 40%; line-height: normal;"><a href="https://project-open-data.cio.gov/v1.1/schema/">https://project-open-data.cio.gov/v1.1/schema/</a></div>
+					<br><br><br>
+                </section>	
+				
+                <section>
+                    <div style="float: left; margin-left: 100px;"><object data="../../common/assets/Transistor_Count_and_Moore's_Law_-_2011.svg" type="image/svg+xml"></object></div>
+                    <div style="position: absolute; bottom: 200px; right: 30px; width: 70%; text-align: right; font-size: 40%; line-height: normal;">Wgsimon (2011), Licensed under CC BY-SA 3.0 via Commons<br>
+					<a target="_blank" href="https://en.wikipedia.org/wiki/Moore's_law#/media/File:Transistor_Count_and_Moore%27s_Law_-_2011.svg">https://en.wikipedia.org/wiki/Moore's_law#/media/File:Transistor_Count_and_Moore%27s_Law_-_2011.svg</a></div>
+                </section>		
+
+                <section>
+                    <div style="float: right; top: 0px; font-weight: bold; font-size: 110%; position: relative; right: 150px;">Some Useful Abstractions</div>
+                    <div style="width: 45%; float: left;"><img src="../../common/assets/Pyramid.png" style="max-width: 110% !important; position: relative; left: 15%;"></div>
+                    <div class="fragment" style="width: 45%; float: right; font-size: 80%; line-height: normal; text-align: right; position: relative; right: 150px;">
+                    <br><br>“Information is not knowledge.<br>
+                        Knowledge is not wisdom.<br>
+                        Wisdom is not truth.<br>
+                        Truth is not beauty.<br>
+                        Beauty is not love.<br>
+                        Love is not music.<br>
+                        Music is THE BEST.”<br><br>
+                        ― Frank Zappa&nbsp;&nbsp;
+                    </div>
+                </section>
+
+                <section>
+                    <span style="font-weight: bold; font-size: 110%;">Sensors and Data Levels</span><br><br>
+                    <table style="font-size: 60%; border: solid black 1px; width: 80%;"><tablebody><tr style="font-style: italic">
+                        <td>Active vs. Static:</td><td>Data Storage:</td><td>Example or Focus:</td><td>Typical File Formats:</td>
+                      </tr><tr>
+                        <td rowspan="3" style="vertical-align: abs-middle; text-align: center; font-size: 105%">ACTIVE</td><td style="background-color: rgb(251,229,214)">Raw Data:</td><td style="background-color: rgb(251,229,214)">Temperature readings over time</td><td style="background-color: rgb(251,229,214)">Paper?  Device-specific? .xlsx, …</td>
+                      </tr><tr style="background-color: rgb(243,203,173)">
+                            <td>Processed Data:</td><td>“Cleaned,” normalized temperature data compiled in spreadsheet</td><td>.xlsx, .sas, …</td>
+                      </tr><tr style="background-color: rgb(244,177,131)">
+                            <td>Analyzed Data:</td><td>Temperature data with averages computed, graphs charted</td><td>.xlsx, .sas, …</td>
+                      </tr><tr style="background-color: rgb(132,60,12); color: #FFF">
+                        <td>STATIC</td><td>Finalized, Published Data:</td><td>Do the data support hypothesis?</td><td>.csv</td>
+                    </tr></tablebody></table>
+                    <br><br><span style="font-size: 50%;">adapted from <a target="_blank" href="http://classguides.lib.uconn.edu/">http://classguides.lib.uconn.edu/</a></span>
+                </section>
+
+            </div>
+        </div>
+        <script src="../../common/java/reveal.js"></script>
+	    <script src="../../common/java/notes.js"></script>
+	    <script src="../../common/java/head.min.js"></script>
+        <script>
+            Reveal.initialize({
+                width: 1366, height: 768, margin: 0.05,
+                controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				mouseWheel: true,
+				chart: {
+					defaults: { 
+						global: { 
+							defaultFontSize: 20,
+							title: { fontColor: "#333" }, 
+							legend: {
+								position: "top",
+								labels: { fontColor: "#333" },
+							},
+							tooltips: {
+								labels: { fontColor: "#333" },
+							},
+						}, 
+						scale: { 
+							scaleLabel: { fontColor: "#333" }, 
+							gridLines: { color: "#333", zeroLineColor: "#333" }, 
+							ticks: { fontColor: "#333" }, 
+						} 
+					},
+				},
+                dependencies: [
+                    { src: '../../common/java/Chart.min.js' },
+                    { src: '../../common/java/csv2chart.js' }
+                ] 
+            });
+        </script>
+    </body>
+</html>
