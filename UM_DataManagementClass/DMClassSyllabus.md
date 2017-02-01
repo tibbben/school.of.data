@@ -246,8 +246,6 @@ here?*
 
 > Assigned Reading:
 
--    Open Data Policy—Managing Information as an Asset.
-     [*https://www.whitehouse.gov/sites/default/files/omb/memoranda/2013/m-13-13.pdf*](https://www.whitehouse.gov/sites/default/files/omb/memoranda/2013/m-13-13.pdf)[](https://www.whitehouse.gov/sites/default/files/omb/memoranda/2013/m-13-13.pdf)
 -    Miami and other IP policy / data policy. Search for ‘data’ and scan relevant sections. [*https://umshare.miami.edu/web/wda/facultysenate/FacultyManual.pdf*](https://umshare.miami.edu/web/wda/facultysenate/FacultyManual.pdf).
 -    Madison (2011). “Knowledge Curation.” Notre Dame Law Review, Vol. 86, p. 1957, 2011; U. of Pittsburgh Legal Studies Research Paper No. 2011-13. Available at SSRN: [*http://ssrn.com/abstract=1848086*](http://ssrn.com/abstract=1848086)
 -    Mons, Barend , et al (2011). The value of Data. Nature Genetics, 43, pp 281-283. [*https://dx.doi.org/10.1038/ng0411-281*](https://dx.doi.org/10.1038/ng0411-281).
