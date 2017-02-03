@@ -246,14 +246,15 @@ here?*
 
 > Assigned Reading:
 
--    Miami and other IP policy / data policy. Search for ‘data’ and scan relevant sections. [*https://umshare.miami.edu/web/wda/facultysenate/FacultyManual.pdf*](https://umshare.miami.edu/web/wda/facultysenate/FacultyManual.pdf).
--    Madison (2011). “Knowledge Curation.” Notre Dame Law Review, Vol. 86, p. 1957, 2011; U. of Pittsburgh Legal Studies Research Paper No. 2011-13. Available at SSRN: [*http://ssrn.com/abstract=1848086*](http://ssrn.com/abstract=1848086)
--    Mons, Barend , et al (2011). The value of Data. Nature Genetics, 43, pp 281-283. [*https://dx.doi.org/10.1038/ng0411-281*](https://dx.doi.org/10.1038/ng0411-281).
+-    University of Miami Faculty Manual 2016-17. READ ONLY pp 135-138. SEARCH for "data" and scan relevant sections. [*https://umshare.miami.edu/web/wda/facultysenate/FacultyManual.pdf*](https://umshare.miami.edu/web/wda/facultysenate/FacultyManual.pdf).
+-    Carroll MW (2015) Sharing Research Data and Intellectual Property Law: A Primer. *PLoS Biol* 13(8): e1002235. [*http://dx.doi.org/10.1371/journal.pbio.10022358*](http://dx.doi.org/10.1371/journal.pbio.1002235).
+-    Briney, K., Goben, A., & Zilinski, L. (2015). Do You Have an Institutional Data Policy? A Review of the Current Landscape of Library Data Services and Institutional Data Policies. *Journal of Librarianship and Scholarly Communication*, 3(2). [*http://dx.dio.org/10.7710/2162-3309.1232*](http://dx.dio.org/10.7710/2162-3309.1232). SKIM THIS - LOOK MOSTLY AT THE RESULTS OF THE STUDY.
+-    Johns Hopkins University Policy on Access and Retention of Research Data and Materials (2008). [*http://dms.data.jhu.edu/files/2016/08/JHUDataRetentionPolicy2008\_WithAppendices.pdf*](http://dms.data.jhu.edu/files/2016/08/JHUDataRetentionPolicy2008_WithAppendices.pdf).
 
 > Optional Reading:
 
 -   Boyle (2003). The Second Enclosure Movement and the Construction of
-    the Public Domain. Law and Contemporary Problems,
+    the Public Domain. *Law and Contemporary Problems*,
     66:33(Winter/Spring), 33-74.
     [*http://scholarship.law.duke.edu/lcp/vol66/iss1/2/*](http://scholarship.law.duke.edu/lcp/vol66/iss1/2/).
 -   David (2008). The Historical Origins of ‘Open Science’: An Essay on
@@ -262,6 +263,9 @@ here?*
     [*https://dx.doi.org/10.2202/1932-0213.1040*](https://dx.doi.org/10.2202/1932-0213.1040).
 -   Center for Open Data Enterprise (2016). _Open Data Transition Report: An action plan for the next administration_. [*http://opendataenterprise.org/reports/transition-report.pdf*](http://opendataenterprise.org/reports/transition-report.pdf).
 -   Uhlir, Paul (ed) (2016). "Legal Interoperability of Research Data: Principles and Implementation Guidelines." Research Data Alliance - Committee on Data for Science and Technology - Legal Interoperability Interest Group. [https://zenodo.org/record/162241#.WDRQln17Ifg](https://zenodo.org/record/162241#.WDRQln17Ifg) 
+-   Madison (2011). “Knowledge Curation.” Notre Dame Law Review, Vol. 86, p. 1957, 2011; U. of Pittsburgh Legal Studies Research Paper No. 2011-13. Available at SSRN: [*http://ssrn.com/abstract=1848086*](http://ssrn.com/abstract=1848086)
+-   Mons, Barend , et al (2011). The value of Data. *Nature Genetics*, 43, pp 281-283. [*https://dx.doi.org/10.1038/ng0411-281*](https://dx.doi.org/10.1038/ng0411-281).
+
 
 > Assignment \#2: write a one-paragraph statement on sharing and access policy (can be for your research lab, your internship, or some other relevant work)
 
