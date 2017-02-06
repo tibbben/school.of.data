@@ -1,10 +1,10 @@
 Lesson 5
 ========
 
-**Learning Objectives**
-  - Identify major concerns with storage and backup
-  - Identify different hardware and online solutions
-  - Describe advantages and disadvantages of different strategies
+**Learning Objectives**  
+Evaluate how ownership and copyright of data and associated software and/or scripts impact access and sharing strategies.
+  - Know University of Miami Policy
+  - Know your rights and obligations in the research environment
 
 ---
 
@@ -13,79 +13,87 @@ Lesson 5
 *__Class 1__*  
 
 1. Houskeeping (5 minutes)
-  - by Wednesday, have their interviewee identified - discuss options
-2. Introduction and Methodological Considerations (lecture 15 minutes)
-  - really have them think for a momoent on computer failure - compare to loss of wallet or purse
-  - have them think through the loss scenarios before showing - see if the get them all
-  - backups
-    - emphasize periodic snapshots that get erased over and over again, frequent schedule
-  - archives
-    - emphasize long term - checksum, decay, LOCKSS
-  - emphasize: you can't save everything, introduce storage is cheap debate?
-  - on the "don't forget" slide use opportunity to talk about file system organization (time and space, file types, structures and formats) and file naming conventions all in the context of the research data lifecycle.
-  - on validation: admit that ithis is a hard habit, but important for some . . . think of examples together  . . . do a command line example
-  - STOP on the Backup Media Options Slide (picture of the disk and the cloud)
-3. share excercise (15 minutes or less)
-  - describe to a partner your current backup strategy, partner write it down (3 minutes)
-  - switch and do the same (3 minutes)
-  - critique parter's and your strategy: identify weaknesses and strengths (2 minutes)
-  - share (7 minutes)
-4. Backup and storage media options and solutions (lecture 30 minutes)
-  - on intro slide (disk and cloud) introduce idea of pros and cons, no magic solution, must be designed for your work flow
-  - on magnetic tapes slide amphasize that this is still very common
-  - on repositories, suggest they start exploring now (they have an assignment later as well)
-    - also note the dulication of: data is accesible and visible
-  - versioning - note that we will get into this later and do some hands-on learning with git
-  - make sure they know who Richard Stallman is (GNU public license)
-  - on the bottom line slide:
-    - know that xfat is a disk format, not a file format
-    - re-emphasize again, organization, naming, formats
-5. End with on campus solutions and a transition to security
-6. If there is time and curiosity, introduce command line sync tools
+  - check in on progress, final projects overview due NOW!!
+  - check in on coding
+    - input/output, pipes and filters, loops, conditionals, functions
+    - not hard to self learn (mention resources: online boards, stackoverflow, etc.)
+2. Open Data (20 minutes)
+  - Open access, open data, open source, open content, open knowledge
+    - speak to data vs database
+    - speak to open source, community source, proprietary (costs, who pays)
+    - new economic model? 
+    - open linked data???
+  - Data Governance on the lifecycle
+    - pretty much everywhere
+    - always will be tensions (there is never a simple solution)
+  - definitions
+    - open data
+    - open data characteristics (ideal vs. .gov) [from Kitchin]
+  - Review: why and why not (research context)
+    - seek solutions
+    - all disciplines different
+  - broader context (why and why not)
+    - note that transparency should be in research context as well (taxes paid for research)
+    - story of GPS receivers, 1984 made open, look at proliferation of business that benefitted
+    - think also about remotely sensed data (high investment, but incredibly useful for MANY things)
+    - lots of volunteer work, who benefits?
+3. Software Licensing and Open Source Software (20 minutes)
+  - take a moment and have them write down several things - discuss
+    - what they think open source software is
+    - who uses open source software
+    - where you might find open source software (kinds of devices)
+  - define - note similarities between open source and open data
+    - data drew from longer open source community
+  - talk about licensing
+    - tell tale of GNU and Richard Stallman
+      - free software foundation and drafting of GNU license
+      - free, not as in free beer but as in free speech
+    - GNU slightly more restrictive on redistribution must remain open (than BSD) - a form of "copyleft" (all derivatives must retain the same distribution license)
+    - BSD - Berkeley Software Distribution
+    - MIT perhaps most permissive, you can do anything but the liense must remain with the distribute/modifie copy
+    - Apache - probably most restrictive, can still remain patented
+  - examples of Open Source Software
+    - linux
+      - flavors
+      - paid for services (support, updates, etc.)
+    - apache
+      - pretty much runs the internet
+    - and so on
+4. University of Miami Policy (20 minutes)
+  - Introduce the Data Policy article - place UM on the tables (approx)
+    - UM $309 Million in grants 2014-15
+    - UM has approx. 3000 faculty
+  - University Ownership (from Faculty Manual)
+    - all research products (data included, but not explicit, there is work going on in office of research and in Library to make better policy)
+    - software as an exception
+  - Faculty Manual (on Data)
+    - a little on hiring and promotion
+    - mostly about misconduct and investigations into misconduct
+  - Graduate Student Manual (on Data)
+    - all about misconduct
 
 *__Class 2__*  
 
-1. Security and Privacy (lecture 20 minutes)
-  - at start emphasize how security and storage are very related
-  - two key components (link both to privacy concerns and IP):
-    - corruption (very related to storage)
-    - access
-    - on this slide (#3) again connect to backup and storage strategies. This leads directly to a review of the first session pros and cons for storage strategies
-  - security and privacy
-    - give context - any policy related interviews or surveys (land managers, conservation employees, park visitors, etc.)
-    - PII (personally identifyable information): NOTE that this is a fuzzy line, give examples
-      - addresses of people in a known study for AIDS or immigration (is the address PII?)
-      - ID theft or worse
-    - note that UM optoins are often available at other institutional settings (govt, NGO, etc)
-  - general Security Notes
-    - anti-intrusion: not anti-virus, but instead atching network traffic on your computer - make note of rougue linux server at UCSC with 1000s of attacks a day - relate to firewall (especially on public networks)
-    - ssh: secure shell for command line on remote computer
-    - scp: secure copy for transfer of files between two computers
-    - sFTP: File Transfer Protocol (Check in on this - who uses?)
-    - macs need virus software too
-  - for encryption suggest the system tools, but show the command line base
-    - the code book has mixed reviews: those that know don't like it, on the other hand it is a good introduction (but you will NOT be an expert)
-  - access and passwords
-    - find out how many know about VPN - common tool all around
-    - note that the long password mantra is new - this tends to change with hackign technologies
-2. The Data Storage, Backup, Security Checklist (excercise 15 minutes)
-  - Word doc from University of Massachusets: [*http://library.umassmed.edu/necdmc/necdmc_activity4b.docx*](http://library.umassmed.edu/necdmc/necdmc_activity4b.docx)
-  - take 2-3 minutes to fill it out
-  - reflect for 5 minutes and write notes on what you want to change (share if desired)
-  - NOTE: in storage and backup the difference between full, incremental, and differential was never introduced. If this does not come up as a question, make sure to introduce the concept (see last slide in the presentation)
-3. Introduction to DCP assignment (lecture 15 minutes)
-  - review of major course components so far
-  - introduction to research includes background on person (previous research, publications etc.)
-  - this will not be a true Curation Profile, but instead a critique that synthesizes the first part of the course
-  - end with recomendations (the researcher will not see these)
-  - go over time frame for assignment
-
-NOTE: there may be extra class time, then again maybe not. If there is, start in on git software carpentry lesson
+1. Guest lecture: Sarah Shreeves, Associate Dean for Digital Strategies, Library
   
 ---
 
 > Readings (Required)
+  - Miami and other IP policy / data policy. Search for ‘data’ and scan relevant sections. [*https://umshare.miami.edu/web/wda/facultysenate/FacultyManual.pdf*](https://umshare.miami.edu/web/wda/facultysenate/FacultyManual.pdf).
+  - Briney, K., Goben, A., & Zilinski, L. (2015). Do You Have an Institutional Data Policy? A Review of the Current Landscape of Library Data Services and Institutional Data Policies. Journal of Librarianship and Scholarly Communication, 3(2), eP1232. [*http://dx.doi.org/10.7710/2162-3309.1232*](http://dx.doi.org/10.7710/2162-3309.1232)
+  - Stodden, Victoria (2014). "What Computational Scientists Need to Know about Intellectual Property Law: A Primer" in Stodden,  Victoria , Friedrich Leisch , and Roger D . Peng (eds) Implementing Reproducible Research. Chapman and Hall. [a pdf is in the Week 11 folder in Class Materials on Blackboard]
 
-  - Backing Up Data (UK Data Archive): [*http://www.data-archive.ac.uk/create-manage/storage/back-up*](http://www.data-archive.ac.uk/create-manage/storage/back-up)
-  - Ruggiero and Heckathorn (2012). Data Backup Options. United States Computer Emergency Readiness Team. [*https://www.us-cert.gov/sites/default/files/publications/data\_backup\_options.pdf*](https://www.us-cert.gov/sites/default/files/publications/data_backup_options.pdf).
-  - Version Control and Authenticity (UK Data Archive): [*http://www.data-archive.ac.uk/create-manage/format/versions*](http://www.data-archive.ac.uk/create-manage/format/versions)
+> Optional Reading:
+  - Madison (2011).  “Knowledge Curation.” Notre Dame Law Review, Vol. 86, p. 1957, 2011; U. of Pittsburgh Legal Studies Research Paper No. 2011-13. Available at SSRN: [*http://ssrn.com/abstract=1848086*](http://ssrn.com/abstract=1848086)
+  - Boyle (2003). The Second Enclosure Movement and the Construction of the Public Domain. Law and Contemporary Problems, 66:33(Winter/Spring), 33-74. [*http://scholarship.law.duke.edu/lcp/vol66/iss1/2/*](http://scholarship.law.duke.edu/lcp/vol66/iss1/2/).
+  - David (2008). The Historical Origins of ‘Open Science’: An Essay on Patronage, Reputation and Common Agency Contracting in the Scientific Revolution. Capitalism and Society 3(2), Article 5. [*https://dx.doi.org/10.2202/1932-0213.1040*](https://dx.doi.org/10.2202/1932-0213.1040).
+
+> additional materials
+  - The USC–UCSD data dispute:
+    - [*http://chronicle.com/article/Grant-Dispute-Throws-an/231857/*](http://chronicle.com/article/Grant-Dispute-Throws-an/231857/)
+    - [*http://www.latimes.com/local/california/la-me-0725-uc-sandiego-20150725-story.html*](http://www.latimes.com/local/california/la-me-0725-uc-sandiego-20150725-story.html)
+  - Not strictly ethics but related to the issues outline in Nancy’s video:
+    - [*http://retractionwatch.com/2013/02/22/med-student-loses-paper-when-former-boss-claims-right-to-data/*](http://retractionwatch.com/2013/02/22/med-student-loses-paper-when-former-boss-claims-right-to-data/)
+    - [*https://www.timeshighereducation.com/news/papers-retracted-after-authors-used-unauthorised-data-from-junior-researchers*](https://www.timeshighereducation.com/news/papers-retracted-after-authors-used-unauthorised-data-from-junior-researchers)
+  - Timeline of copyright law – good way to understand how the law and our interpretation of it is built: [*http://www.arl.org/focus-areas/copyright-ip/2486-copyright-timeline#.VvAxJBIrLUY*](http://www.arl.org/focus-areas/copyright-ip/2486-copyright-timeline#.VvAxJBIrLUY)
+  - ARL Issue Brief on Data and Text Mining and Fair Use: [*http://www.arl.org/storage/documents/TDM-5JUNE2015.pdf*](http://www.arl.org/storage/documents/TDM-5JUNE2015.pdf)
