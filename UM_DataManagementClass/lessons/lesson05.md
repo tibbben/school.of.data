@@ -13,59 +13,77 @@ Evaluate how ownership and copyright of data and associated software and/or scri
 *__Class 1__*  
 
 1. Houskeeping (5 minutes)
-  - check in on progress, final projects overview due NOW!!
-  - check in on coding
-    - input/output, pipes and filters, loops, conditionals, functions
-    - not hard to self learn (mention resources: online boards, stackoverflow, etc.)
+  - check in on progress, mention howework #2 will be assigned on wednesday
+  - mention that on Wednesday we will go over midterm assignement and tentative workflow calendar
 2. Open Data (20 minutes)
-  - Open access, open data, open source, open content, open knowledge
+  - really get them to think (perhaps outloud) aout what "open" means to them in terms of:
+    - Open access, open data, open source, open content, open knowledge
+	- social movement with many sides (not all who speak to open data agree on what it is or why we do it)
     - speak to data vs database
     - speak to open source, community source, proprietary (costs, who pays)
-    - new economic model? 
+    - is open source a new economic model? many people belive so (as we transition to an information economy)
     - open linked data???
   - Data Governance on the lifecycle
-    - pretty much everywhere
+    - pretty much everywhere in the lifecycle diagram, but not so much in the collection phase
     - always will be tensions (there is never a simple solution)
   - definitions
     - open data
     - open data characteristics (ideal vs. .gov) [from Kitchin]
+	- key words: share-alike, attribution
+	- not that there is no "one" definition
+	- Larry Lessig: Harvard Law Professor and internet activist; thought leader on licensing and copyright; actually was a nominee for democratic presidential candidate 2016 (but withdrew)
+	- linked open data (LOD) is an extension of open data; next big thing? We will return to this at end of class.
   - Review: why and why not (research context)
-    - seek solutions
-    - all disciplines different
+    - overview of benefits and diffuculties
+    - then a brief discussion of attampts to seek solutions (perhaps with emphasis on library context)
+	- note that this class is a part of the solution
+    - all disciplines different!!
   - broader context (why and why not)
     - note that transparency should be in research context as well (taxes paid for research)
-    - story of GPS receivers, 1984 made open, look at proliferation of business that benefitted
+    - story of GPS receivers, 1984 satellite signals made "open," now we see a proliferation of businesses that benefitted
     - think also about remotely sensed data (high investment, but incredibly useful for MANY things)
-    - lots of volunteer work, who benefits?
+    - lots of volunteer work in the open data movement, who benefits?
+	- %LIKE% is an example of SQL syntax
+	- lots of discussion about how data (open or not) empowers some and dis-empowers others, particularly the "Digital Divide"
+	- "Digital Divide" is know to be growing currently, not lessening. Particularly in the context of global "North/South" relations, but also in "developed" countries like the US (inner city dwellers do not have the same access to digital tools, information, and education on how to use it)
+    - mention that Facebook sells data to governments across to globe at a high price (identify terrorists)
 3. Software Licensing and Open Source Software (20 minutes)
   - take a moment and have them write down several things - discuss
     - what they think open source software is
     - who uses open source software
     - where you might find open source software (kinds of devices)
   - define - note similarities between open source and open data
-    - data drew from longer open source community
+    - they should know: Richard Stallman - independent lawyer and internet activist - "invented" the open source license (GNU)
+	- they should know: Linus Torvalds - inventor of linux: reverse engineered UNIX and released for no cost under Stallman's license
+    - open data drew from older open source community
   - talk about licensing
     - tell tale of GNU and Richard Stallman
       - free software foundation and drafting of GNU license
       - free, not as in free beer but as in free speech
     - GNU slightly more restrictive on redistribution must remain open (than BSD) - a form of "copyleft" (all derivatives must retain the same distribution license)
-    - BSD - Berkeley Software Distribution
-    - MIT perhaps most permissive, you can do anything but the liense must remain with the distribute/modifie copy
+    - BSD - Berkeley Software Distribution (lots of innovation at the Berkeley computing facilites released under this license)
+    - MIT perhaps most permissive, you can do anything but the license must remain with the distribute/modifie copy
     - Apache - probably most restrictive, can still remain patented
   - examples of Open Source Software
     - linux
-      - flavors
-      - paid for services (support, updates, etc.)
+      - flavors (Ubuntu, CentOS, and Fedora fairly popular, but there are hundreds)
+      - paid for "enterprise support" services (support, updates, etc.), but the code comes at no cost
     - apache
-      - pretty much runs the internet
-    - and so on
+      - pretty much runs the internet in conjunction with linux
+	  - linux runs the system and apache runs the server software 
+    - other honorable mentions
+	  - open office (SUN mirosystems)
+	  - GIMP (Photoshop clone)
+	  - QGIS (GIS)
+	  - wordpress (UM uses wordpress for many departmental sites including libraries)
+	  - MySQL and PHP is a backbone for dynamic web pages (commercial web sites)
 4. University of Miami Policy (20 minutes)
   - Introduce the Data Policy article - place UM on the tables (approx)
     - UM $309 Million in grants 2014-15
     - UM has approx. 3000 faculty
   - University Ownership (from Faculty Manual)
-    - all research products (data included, but not explicit, there is work going on in office of research and in Library to make better policy)
-    - software as an exception
+    - all research products (data included explicitly, there is work going on in office of research and in Library to make better policy)
+    - software is not an exception
   - Faculty Manual (on Data)
     - a little on hiring and promotion
     - mostly about misconduct and investigations into misconduct
