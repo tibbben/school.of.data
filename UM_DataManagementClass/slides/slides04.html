@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="../../common/css/white.css">
         <link rel="stylesheet" href="../../common/css/overrides.css">
 	    <script src="../../common/java/print.js"></script>
-        <title>Research Data Management - 03</title>
+        <title>Research Data Management - 04</title>
         <meta charset="UTF-8">
     </head>
     <body>
@@ -852,20 +852,616 @@ This will show all of the options for the rsync command. You can see that
 
 				<section>
 					<div style="font-weight: bold; font-size: 110%;">Todays Outline</div>
-					<div style="width: 75%; margin-left: auto; margin-right: auto; font-size: 85%; text-align: left; top: 130px; line-height: 120%; position: relative; top: 23px;">
+					<div style="width: 25%; margin-left: auto; margin-right: auto; font-size: 85%; text-align: left; top: 130px; line-height: 120%; position: relative; top: 23px;">
 						<ul style="font-size: 80%;">
-							<li style="position: relative; left: 23px; top: 20px;">File formats
-							<li style="position: relative; left: 23px; top: 20px;">Text-based "open" formats
-							<li style="position: relative; left: 23px; top: 20px;">Image formats
+							<li style="position: relative; left: 23px; top: 20px;">Security and Privacy
+							<li style="position: relative; left: 23px; top: 20px;">File System Organization
+							<li style="position: relative; left: 23px; top: 20px;">Midterm Assignment
 						</ul>
 					</div>
-					<br><br><br>
+					<br><br><br><br><br>
 					<div style="position: absolute; bottom: 0px; left: 500px; text-align: left; font-size: 60%; line-height: normal;">
 						<a href="https://etherpad.net/p/Data_Management_Keywords">https://etherpad.net/p/Data_Management_Keywords</a><br>
 					</div>
-					<div style="position: absolute; bottom: -100px; left: 100px; text-align: left; font-size: 60%; line-height: normal;">
-						Download this: <a href="https://tibbben.github.io/school.of.data/UM_DataManagementClass/materials/materials03.zip">https://tibbben.github.io/school.of.data/UM_DataManagementClass/materials/materials03.zip</a>
+				</section>
+				
+                <section>
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: 0px; font-weight: bold; font-size: 110%;">Spinning (metal) disk: Laptop or Desktop</div>
+					<div style="position: relative; margin-left: 10%; margin-right: auto; top: 40px; font-size: 90%; width: 40%;">
+						<ul style="font-size: 95%;">
+							<li  style="position: relative; left: 23px; top: 20px; color: #aaa;">Pros
+							<ul style="font-size: 80%;">
+								<li>High level of control over file system, naming, and physical location of disk
+								<li>Easy to backup
+								<li>Convenient
+							</ul>
+							<li  style="position: relative; left: 23px; top: 50px; color: #aaa;">Cons
+							<ul style="font-size: 80%;">
+								<li>Risk of malware (virus)
+								<li>Risk of theft, damage, loss, etc
+								<li>System can eventually corrupt the disk (especially pcs)
+								<li>Finite lifespan
+							</ul>
+						</ul><br><br><br>
 					</div>
+                    <div class="fragment" style="position: absolute; left: 750px; top: 275px; border: 2px blue solid; width: 420px; background-color: #bbe; text-align: left; font-size: 70%; padding: 5px; padding-left: 10px;">
+						SECURITY CONSIDERATIONS:<br>
+						<ul style="font-size: 90%;">
+							<li style="position: relative; left: 23px;">Virus Control
+							<li style="position: relative; left: 23px;">Theft or damage
+							<li style="position: relative; left: 23px;">Disk failure
+						</ul>
+					</div>
+                </section>					
+
+                <section>
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: 0px; font-weight: bold; font-size: 110%;">Spinning (metal) disk: (Network) Server</div>
+					<div style="position: relative; margin-left: 5%; margin-right: auto; top: 40px; font-size: 90%; width: 75%;">
+						<ul style="font-size: 95%;">
+							<li style="position: relative; left: 23px; top: 20px; color: #aaa;">Pros
+							<ul style="font-size: 80%;">
+								<li>High level of control over file system, naming, and physical location of disk
+								<li>Likely has backup and maintenance schedule
+								<li>Possible duplicate (mirror) images – RAID systems
+								<li>Safe physical location
+							</ul>
+							<div style="position: absolute; left: 600px; top: 200px; font-size: 60%; width: 550px;"><b>R</b>edundant <b>A</b>rray of <b>I</b>ndependent <b>D</b>isks</div>
+							<li style="position: relative; left: 23px; top: 50px; color: #aaa;">Cons
+							<ul style="font-size: 80%;">
+								<li>Expensive to maintain
+								<li>Migration can be difficult
+								<li>Susceptible to catastrophic events
+							</ul>
+						</ul><br><br><br><br><br>
+					</div>
+                    <div class="fragment" style="position: absolute; left: 700px; top: 450px; border: 2px blue solid; width: 410px; background-color: #bbe; text-align: left; font-size: 70%; padding: 5px; padding-left: 10px;">
+						SECURITY CONCERNS:<br>
+						<ul style="font-size: 90%;">
+							<li style="position: relative; left: 23px;">Use SSL connections
+							<li style="position: relative; left: 23px;">Good control (physical location)
+							<li style="position: relative; left: 23px;">Encryption?
+						</ul>
+					</div>
+                </section>		
+
+                <section>
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: 0px; font-weight: bold; font-size: 110%;">External storage: memory and drives</div>
+					<div style="position: relative; margin-left: 0%; margin-right: auto; top: 40px; font-size: 90%; width: 80%;">
+						<ul style="font-size: 95%;">
+							<li style="position: relative; left: 23px; top: 20px; color: #aaa;">Pros
+							<ul style="font-size: 80%;">
+								<li>Drives are cheap (sort of) and portable
+								<li>Convenient
+								<li>Memory is cheap and portable
+							</ul>
+							<li style="position: relative; left: 23px; top: 50px; color: #aaa;">Cons
+							<ul style="font-size: 80%;">
+								<li>Connection technologies change (USB, Firewire, SATA, and so on)
+								<li>Drive failure (both spinning drives and memory devices)
+								<li>Easily damaged, stolen or lost
+								<li>Finite space for large projects multiple drives may be necessary
+								<li>Malware can be propagated (think unsafe sex)
+							</ul>
+						</ul><br><br><br>
+					</div>
+                    <div class="fragment" style="position: absolute; left: 770px; top: 90px; border: 2px blue solid; width: 470px; background-color: #bbe; text-align: left; font-size: 70%; padding: 5px; padding-left: 10px;">
+						SECURITY CONCERNS:<br>
+						<ul style="font-size: 90%;">
+							<li style="position: relative; left: 23px;">Theft and damage
+							<li style="position: relative; left: 23px;">Good control (physical location), but you are responsible
+							<li style="position: relative; left: 23px;">Encryption?
+							<li style="position: relative; left: 23px;">Virus protection
+						</ul>
+					</div>
+					<div style="position: absolute; left: 500px; top: 600px; font-size: 50%; width: 700px; color: #aaa;">Does anyone use CDs anymore??? ZIP disks??? NOT recommended!!</div>
+                </section>			
+
+                <section>
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: 0px; font-weight: bold; font-size: 110%;">Networked drives: personal cloud</div>
+					<div style="position: relative; margin-left: 20px; margin-right: auto; top: 40px; font-size: 90%; width: 70%;">
+						<ul style="font-size: 95%;">
+							<li style="position: relative; left: 23px; top: 20px; color: #aaa;">Pros
+							<ul style="font-size: 80%;">
+								<li>Drives are cheap (sort of) and portable
+								<li>Convenient access from anywhere
+								<li>Easy to install and sync
+								<li>Private: password protected
+							</ul>
+							<li style="position: relative; left: 23px; top: 50px; color: #aaa;">Cons
+							<ul style="font-size: 80%;">
+								<li>Upload/download bottlenecks
+								<li>Susceptible to acts catastrophic events
+								<li>Needs permanent power
+								<li>Needs IP address
+							</ul>
+						</ul><br><br><br>
+					</div>
+                    <div class="fragment" style="position: absolute; left: 840px; top: 250px; border: 2px blue solid; width: 350px; background-color: #bbe; text-align: left; font-size: 70%; padding: 5px; padding-left: 10px;">
+						SECURITY CONCERNS:<br>
+						<ul style="font-size: 90%;">
+							<li style="position: relative; left: 23px;">Use SSL connections
+							<li style="position: relative; left: 23px;">Theft or damage
+							<li style="position: relative; left: 23px;">Encryption?
+						</ul>
+					</div>
+					<div style="position: absolute; left: 500px; top: 600px; font-size: 50%; width: 700px; color: #aaa;">Western Digital, Seagate . . . <br>Perhaps buy online, out of state?</div>
+                </section>
+				
+                <section>
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: 0px; font-weight: bold; font-size: 110%;">Networked drives: the "cloud"</div>
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: 0px; font-weight: bold; font-size: 90%;">Includes: Repositories, Online Versioning and Sharing</div>
+					<div style="position: relative; margin-left: 30px; margin-right: auto; top: 40px; font-size: 90%; width: 70%;">
+						<ul style="font-size: 95%;">
+							<li style="position: relative; left: 23px; top: 20px; color: #aaa;">Pros
+							<ul style="font-size: 80%;">
+								<li>No failure or backup worries (they do it)
+								<li>Can be secure (depends)
+								<li>Convenient
+								<li>Good for catastrophic events
+							</ul>
+							<li style="position: relative; left: 23px; top: 50px; color: #aaa;">Cons
+							<ul style="font-size: 80%;">
+								<li>Upload/download bottlenecks
+								<li>Fees?
+								<li>Long-term? No standards?
+								<li>How to get copies of all your data (try this for google drive)
+								<li>No control
+							</ul>
+						</ul><br><br><br><br>
+					</div>
+                    <div class="fragment" style="position: absolute; left: 840px; top: 210px; border: 2px blue solid; width: 420px; background-color: #bbe; text-align: left; font-size: 70%; padding: 5px; padding-left: 10px; padding-right: 10px;">
+						SECURITY CONCERNS:<br>
+						<ul style="font-size: 90%;">
+							<li style="position: relative; left: 23px;">Check the service agreement for encryption algorithm
+							<li style="position: relative; left: 23px;">Use SSL connections
+							<li style="position: relative; left: 23px;">No control
+						</ul>
+					</div>
+                </section>
+
+				<section>
+					... break for privacy ...
+				</section>
+				
+                <section>
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: 0px; font-weight: bold; font-size: 110%;">Privacy</div>
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: 40px; font-size: 75%; width: 90%; text-align: left;">
+						<u>Data derived from human subjects research</u>
+						<ul style="font-size: 95%;">
+							<li style="position: relative; left: 23px;">Must meet federal compliance requirements for security and privacy 
+							<li style="position: relative; left: 23px;">As examples: HIPAA, FERPA, FISMA
+						</ul><br><br>
+						University of Miami Human Subjects Research Office<br>
+						<a style="font-size: 75%;" href="http://uresearch.miami.edu/regulatory-compliance-services/hsro">http://uresearch.miami.edu/regulatory-compliance-services/hsro</a><br><br>
+						<u>Personally Identifiable Information (PII)</u><br>
+						<ul style="font-size: 95%;">
+							<li style="position: relative; left: 23px; ">Name, SSN, Date of Birth, Drivers License, Address, IP Address, Phone Number, anything that can uniquely identify a person
+							<li style="position: relative; left: 23px; ">NIH Guide for Identifying Sensitive Information<br>
+							<a style="font-size: 75%;" href="https://oma.od.nih.gov/DMS/Documents/Privacy/Guide%20for%20Handling%20Sensitive%20Information%20at%20NIH.pdf">https://oma.od.nih.gov/DMS/Documents/Privacy/Guide%20for%20Handling%20Sensitive%20Information%20at%20NIH.pdf</a>    
+						</ul><br><br>
+					</div>
+                </section>		
+				
+                <section>
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: 0px; font-weight: bold; font-size: 110%;">UM Secure Storage Options</div>
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: 40px; font-size: 75%; width: 65%; text-align: left; line-height: 180%">
+						<b>BOX</b> is HIPAA compliant<br>
+						<b>CCS</b> storage services are HIPAA compliant<br>
+						<b>Qualitrics</b> survey tool to build and manage secure online surveys<br>
+						<a style="font-size: 75%; top: -23px;" href="http://it.miami.edu/a-z-listing/survey-tools/index.html">http://it.miami.edu/a-z-listing/survey-tools/index.html</a>
+					</div><br><br><br><br>
+					<div style="position: absolute; left: 500px; top: 500px; font-size: 50%; width: 700px; color: #aaa;"><a href="https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/">Health Insurance Portability and Accountability Act of 1996 (HIPAA)</a></div>
+                </section>	
+
+                <section>
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: 0px; font-weight: bold; font-size: 110%;">UM Office of Research</div>
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: 40px; font-size: 75%; width: 65%; text-align: left;">
+						<b>Velos:</b> <a href="http://uresearch.miami.edu/research-resources/velos">http://uresearch.miami.edu/research-resources/velos</a><br>
+						<div style="font-size: 80%; position: relative; left: 23px; width: 85%;">Velos eResearch Clinical Trials Management Software is a tool for managing clinical trials data.</div><br><br>
+						<b>REDcap:</b> <a href="http://uresearch.miami.edu/research-resources/redcap">http://uresearch.miami.edu/research-resources/redcap</a><br>
+						<div style="font-size: 80%; position: relative; left: 23px; width: 85%;">Research Electronic Data Capture is an application that allows users to build and manage online surveys and databases quickly and securely.</div>
+					</div><br><br><br><br>
+                </section>	
+
+				<section>
+					... break for privacy ...
+				</section>
+
+                <section>
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: 0px; font-weight: bold; font-size: 110%;">Not all data has security and privacy "needs", BUT ...</div>
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: 40px; font-size: 75%; width: 70%; text-align: left;">
+						<ul style="font-size: 95%;">
+							<b><li style="position: relative; left: 23px;">Use automatic updates (mostly for virus issues)</b>
+							<b><li style="position: relative; left: 23px;">Use anti-virus software (also anti-intrusion)</b>
+							<b><li style="position: relative; left: 23px;">Use a firewall (also password protect file-sharing)</b>
+							<li style="position: relative; left: 23px;">Never connect to untrusted wireless connections
+							<li style="position: relative; left: 23px;">Computer disposal?
+							<li style="position: relative; left: 23px;">Know HTTPS, SSH/SCP, sFTP
+							<li style="position: relative; left: 23px;">Understand certificate errors
+							<li style="position: relative; left: 23px;">Do not send confidential email 
+							<li style="position: relative; left: 23px;">Public computers
+							<ul style="font-size: 90%;">
+								<li>Always log out
+								<li>Never leave data/files
+							</ul>
+						</ul><br><br>
+					</div>
+					<div style="position: absolute; left: 700px; top: 300px; font-size: 35%; width: 700px; color: #aaa;"><img src="../../common/assets/wireless.png"><br><a href="http://www.cnet.com/news/a-word-of-warning-about-free-public-wi-fi/">http://www.cnet.com/news/a-word-of-warning-about-free-public-wi-fi/</a></div>
+                </section>						
+
+                <section>
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: 0px; font-weight: bold; font-size: 110%;">Common sense (?)</div>
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: 40px; font-size: 75%; width: 70%; text-align: left;">
+						Password lock all devices (in case of theft or loss)
+						<ul style="font-size: 95%; margin-bottom: 23px;">
+							<li style="position: relative; left: 23px;">Set screen to lock 
+							<li style="position: relative; left: 23px;">This is not foolproof, any hacker knows how to get past a password. See: <a href="http://pogostick.net/~pnh/ntpasswd/">http://pogostick.net/~pnh/ntpasswd/</a> for example.
+						</ul><br>
+						Encryption<br>
+						<ul style="font-size: 95%; margin-bottom: 23px;">
+							<li style="position: relative; left: 23px;">UM Policy: http://www.miami.edu/it/index.php/policies/ 
+							<li style="position: relative; left: 23px;">Mac: System Preferences: Security and Privacy: FileVault
+							<li style="position: relative; left: 23px;">PC: Control Panel: BitLocker Drive Encryption
+						</ul><br>
+						Empty trash securely<br>
+						<ul style="font-size: 95%; margin-bottom: 23px;">
+							<li style="position: relative; left: 23px;">Mac: Finder->Preferences: Advanced Tab, “Empty Trash Securely”
+							<li style="position: relative; left: 23px;">PC: Eraser (open source GPL): http://eraser.heidi.ie/
+						</ul><br><br>
+					</div>
+                </section>
+
+                <section>
+					<div style="position: relative; margin-left: 200px; margin-right: auto; top: 0px; font-weight: bold; font-size: 110%; width: 30%;">Encryption</div>
+					<div style="position: relative; margin-left: 10px; margin-right: auto; top: 40px; font-size: 90%; width: 55%; text-align: left;">
+						<pre><code>
+$ openssl
+
+$ openssl des3 -in test.txt -out encrypted.txt
+
+$ openssl des3 -d -in encrypted.txt -out testout.txt
+						</code></pre>					
+						<br><br>
+					</div>
+					<div style="position: absolute; left: 700px; top: 0px; width: 600px;"><img src="../../common/assets/codebook.jpg"></div>
+					<div style="position: absolute; left: 200px; top: 400px; font-size: 40%; width: 600px; color: #aaa; text-align: left;">Singh, S. 1999. The Code Book: the science of secrecy from ancient Egypt to quantum cryptography. Fourth Estate, London.</div>
+					<div style="position: absolute; left: 100px; top: 500px; font-size: 75%; width: 600px;">NOTE: encryption mistakes are irreversible</div>
+                </section>		
+
+				<section>
+					<div style="font-weight: bold; font-size: 110%;">Once again ...</div>
+					<div class="fragment" style="width: 40%; font-size: 85%; top: 50px; left: 150px; position: relative;">
+						this will get personal
+					</div>
+					<div class="fragment" style="width: 40%; font-size: 85%; top: 150px; left: 300px; position: relative;">
+						access and passwords
+					</div>
+					<div class="fragment" style="width: 40%; font-size: 85%; top: 250px; left: 550px; position: relative;">
+						online habits
+					</div>
+					<br><br><br><br><br><br><br>
+				</section>
+
+                <section>
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: 0px; font-weight: bold; font-size: 110%;">Access Terms (keywords)</div>
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: 40px; font-size: 75%; width: 70%; text-align: left;">
+						<b>User ID / Password</b>
+						<div style="margin-left: 80px;">your UM account</div><br>
+						<b>Limited Network Access</b> -or- 	<b>local area network (LAN)</b><br>
+						<div style="margin-left: 80px;">some research labs, many government offices, many business offices: usually limited to physical presence within the network and <b>virtual private networks (VPN)</b></div><br>
+						<b>Role-Based Access Rights</b><br>
+						<div style="margin-left: 80px;">your computer login (administrator, standard, sharing only, guest)</div>
+					</div><br><br><br>
+                </section>				
+
+                <section>
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: 0px; font-weight: bold; font-size: 110%;">Password Management</div>
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: 40px; font-size: 75%; width: 85%; text-align: left;">
+						<b>Mistakes leading to weak passwords</b> <span style="font-size: 80%">(Do not make these mistakes when choosing a password):</span>
+						<ul style="font-size: 95%;">
+							<li style="position: relative; left: 23px;">your username as a password (even backwards or mixed up).
+							<li style="position: relative; left: 23px;">using any name, or any word in any language.
+							<li style="position: relative; left: 23px;">obvious personal information (your year of birth, phone number, national insurance number, address, etc.).
+							<li style="position: relative; left: 23px;">all digits, or just one letter.
+							<li style="position: relative; left: 23px;">real words with only one or two obvious digit substitutions, like 'p4ssword' or '5ecret'.
+							<li style="position: relative; left: 23px;">fewer than eight characters ("brute force" attack cracks 7 letters in a few minutes).
+							<li style="position: relative; left: 23px;">characters from books, films, etc. (Gandalf, Sherlock), band names, song titles etc. (no matter how obscure).
+							<li style="position: relative; left: 23px;">passwords that are too easy or too difficult to type
+						</ul><br><br><br>
+					</div>
+                </section>		
+
+				<section>
+					<img src="../../common/assets/passwords.png">
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: -10px; font-size: 40%; width: 600px; color: #aaa; text-align: center;"><a href="http://www.explainxkcd.com/wiki/index.php/936:_Password_Strength">http://www.explainxkcd.com/wiki/index.php/936:_Password_Strength</a></div>
+				</section>
+				
+				<section>
+					<img src="../../common/assets/passwords.png">
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: -10px; font-size: 40%; width: 600px; color: #aaa; text-align: center;"><a href="http://www.explainxkcd.com/wiki/index.php/936:_Password_Strength">http://www.explainxkcd.com/wiki/index.php/936:_Password_Strength</a></div>
+					<div style="position: absolute; left: 130px; top: 160px; font-size: 200%; width: 1100px; text-align: center; border: 4px red solid; padding-top: 80px; padding-bottom: 80px; background-color: #fff;">Passwords should be long</div>
+				</section>
+				
+                <section>
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: 0px; font-weight: bold; font-size: 110%;">7 common cloud missteps</div>
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: 40px; font-size: 75%; width: 85%; text-align: left;">
+						<b>Mistakes leading to weak passwords</b> <span style="font-size: 80%;">(Do not make these mistakes when choosing a password):</span>
+						<ol style="font-size: 95%;">
+							<li style="position: relative; left: 23px; margin-top: 10px;">You lost control of your data because of the fine print in a user agreement.
+							<br><div style="color: #999; font-size: 80%; margin-left: 23px; margin-bottom: 9px;">Do a google search “<theNewCloudService> shady user agreement”
+							<li style="position: relative; left: 23px;">You sent out a public link to a Google Doc so others could view and edit.
+							<br><div style="color: #999; font-size: 80%; margin-left: 23px; margin-bottom: 9px;">Invite people through emails
+							<li style="position: relative; left: 23px;">Your cloud account gets hacked (bad password).
+							<br><div style="color: #999; font-size: 80%; margin-left: 23px; margin-bottom: 9px;">Better password management
+							<li style="position: relative; left: 23px;">You use the same password for every app on your phone.
+							<br><div style="color: #999; font-size: 80%; margin-left: 23px; margin-bottom: 9px;">See above
+							<li style="position: relative; left: 23px;">Web trackers are storing information on the sites you visit online.
+							<br><div style="color: #999; font-size: 80%; margin-left: 23px; margin-bottom: 9px;">Private browsing? Don’t stay logged in to google all the time?
+							<li style="position: relative; left: 23px;">You granted an application (smartphone) every permission under the sun.
+							<br><div style="color: #999; font-size: 80%; margin-left: 23px; margin-bottom: 9px;">Be thoughtful when you install and run new apps
+							<li style="position: relative; left: 23px;">A small mobile app startup you know nothing about has access to your banking data.
+							<br><div style="color: #999; font-size: 80%; margin-left: 23px; margin-bottom: 9px;">Let you bank manage your banking data
+						</ol><br><br>
+					</div>
+					<div style="position: absolute; left: 700px; top: 700px; font-size: 40%; width: 500px; color: #aaa; text-align: center;"><a href="http://cloudtweaks.com/2015/11/7-common-cloud-security-missteps/">http://cloudtweaks.com/2015/11/7-common-cloud-security-missteps/</a></div>
+                </section>		
+				
+				<section>
+					... break ...
+				</section>
+				
+                <section>
+                    <div style="width: 65%; margin-right: auto; margin-left: auto; position: relative; top: -50px;">
+                        <br><span style="font-weight: bold; font-size: 110%;">Course Overview<br><br></span>
+                        <div style="font-size: 70%; text-align: left; line-height: 170%; position: relative; left: 70px;">
+                            <ul>
+                                <li style="position: relative; left: 23px;">Why manage data / what is data management
+                                <li style="position: relative; left: 23px;">Data lifecycle and data management plans
+                                <li style="position: relative; left: 23px;">Data types, stages and formats
+                                <li style="position: relative; left: 23px;">Data organization / tips, tools and techniques
+                                <li style="position: relative; left: 23px;">Intellectual property and licensing
+                                <li style="position: relative; left: 23px; color: #999;">Research data profiles
+                                <li style="position: relative; left: 23px; color: #999;">Contextual Metadata
+                                <li style="position: relative; left: 23px; color: #999;">Software carpentry: command line, python, and r
+                                <li style="position: relative; left: 23px; color: #999;">Sharing data, data repositories and data preservation
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+				
+	            <section>
+					<div style="font-weight: bold; font-size: 110%;">Why manage data?</div>
+					<div style="width: 50%; margin-left: 15%; margin-right: auto; font-size: 85%; text-align: left; top: 130px; line-height: 120%; position: relative; top: 43px;">
+						<ul style="font-size: 85%; line-height: 140%; color: #999">
+							<li style="position: relative; left: 23px;">Lots of data, what to do with it?
+							<li style="position: relative; left: 23px;">Many researcher benefits of data management
+							<ul style="font-size: 85%;">
+								<li style="position: relative; left: 23px;">Greater exposure of research
+								<li style="position: relative; left: 23px;">Easier workflows, less frustration, more productivity
+							</ul>
+							<li style="position: relative; left: 23px;">Many scientific/social benefits of data management
+							<ul style="font-size: 85%;">
+								<li style="position: relative; left: 23px;">Sharing and re-use
+								<li style="position: relative; left: 23px;">New discoveries
+							</ul>
+							<li style="position: relative; left: 23px;">Not managing data is NOT an option
+							<ul style="font-size: 85%;">
+								<li style="position: relative; left: 23px;">Cost are to high (both personal and professional)
+							</ul>
+						</ul>
+					</div><br><br><br>
+					<div class="fragment" style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;">
+                    <div style="position: absolute; left: 900px; top: 100px;"><image src="../../common/assets/carrot.png" style="background: none !important; max-width: 70%;"></div>
+                    <div style="position: absolute; left: 950px; top: 340px;"><image src="../../common/assets/stick.png" style="background: none !important;  max-width: 70%;"></div>
+					<div style="position: absolute; left: 350px; top: 550px; font-weight: bold; font-size: 100%;">Is there more?</div>
+					<div style="position: absolute; left: 1150px; top: 160px; font-weight: bold; font-size: 100%;">Values?</div>
+					</div>
+                </section>	
+				
+				<section>
+                    <div style="position: absolute; width: 30%; right: 50px;">
+						<div style="font-size: 110%; font-weight: bold; text-align: center;">DMP</div><br>
+                            <ol style="font-size: 70%">
+                                <li style="position: relative; left: 23px; margin-bottom: 10px;">Information about Data and Data Formats
+                                <li style="position: relative; left: 23px; margin-bottom: 10px;">Metadata Content and Format
+                                <li style="position: relative; left: 23px; margin-bottom: 10px;">Policies for access sharing and re-use
+                                <li style="position: relative; left: 23px; margin-bottom: 10px;">Long-term storage and preservation
+                                <li style="position: relative; left: 23px; margin-bottom: 10px;">Budget
+                            </ol><br><br><br>
+					</div>
+                    <div style="position: absolute; top: 0px; left: 0px; width: 100%; text-align: left;"><img src="../../common/assets/DataCycle.png" style="position: relative; max-width: 60%; left: 10px;"></div>
+                </section>
+				
+                <section>
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: 0px; font-weight: bold; font-size: 110%;">Data</div>
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: 40px; font-size: 75%; width: 63%; text-align: left;">
+						<b>Types</b>
+						<div style="margin-left: 40px;">quant/qual – structured/unstructured – captured/derived – indexical/attribute/metadata – primary/tertiary</div><br>
+						<b>Levels</b><br>
+						<div style="margin-left: 40px;">unprocessed – processed/derived – analyzed - published</div><br>
+						<b>Formats</b><br>
+						<div style="margin-left: 40px;">proprietary/open/mixed – lossy/lossless – text/images/other</div>
+					</div><br><br><br>
+                </section>		
+				
+                <section>
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: 0px; font-weight: bold; font-size: 110%;">Organization</div>
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: 40px; font-size: 75%; width: 63%; text-align: left;">
+						<b>File System Structure</b>
+						<div style="margin-left: 40px;">time/space (project) – data levels/types/formats</div><br>
+						<b>File Naming Conventions</b><br>
+						<div style="margin-left: 40px;">time/space (project) – human/machine</div><br>
+					</div><br><br><br>
+                </section>
+				
+                <section>
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: 0px; font-weight: bold; font-size: 110%;">Storage and Security</div>
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: 40px; font-size: 75%; width: 63%; text-align: left;">
+						<b>File System Structure</b>
+						<div style="margin-left: 40px;">Migration – value/time – feasibility</div><br>
+						<b>File Naming Conventions</b><br>
+						<div style="margin-left: 40px;">Corruption and access – privacy and IP value</div><br>
+					</div><br><br><br>
+                </section>
+				
+				<section>
+					<div style="position: relative; margin-left: auto; margin-right: auto; top: 0px; font-weight: bold; font-size: 110%;">Midterm Calendar</div>
+					<div style="font-size: 50%; margin-top: 20px;">
+						<style> #Calendar {font-family:Arial, sans-serif;}  #Calendar h1 {font-family:Arial, Helvetica, sans-serif; font-size:12.0pt; font-weight:400; margin-top:0px; margin-bottom:0px;  font-weight:normal;} .monthNoCol { width: 3.2%} .monthTxtCol { width: 10.9%;} .Sapro9016184{padding-top:1px; color:navy; font-size:11.0pt; font-weight:700; text-align:center; vertical-align:middle; border-top:1.0pt solid #355986; border-left:1.5pt solid #355986; background:#F9F9E1; } .Sapro9116184{padding-top:1px; color:maroon; font-size:0.8em; text-align:left; vertical-align:middle; border-top:1.0pt solid #355986; background:#F9F9E1; } .Sapro9216184{padding-top:1px; color:navy; font-size:11.0pt; font-weight:700; text-align:center; vertical-align:middle; border-top:1.0pt solid #355986; border-left:1.0pt solid #355986; } .Sapro9316184{padding-top:1px; color:maroon; font-size:0.8em; text-align:left; vertical-align:middle; border-top:1.0pt solid #355986; } .Sapro9416184{padding-top:1px; color:navy; font-size:11.0pt; font-weight:700; text-align:center; vertical-align:middle; border-top:1.0pt solid #355986; border-left:1.0pt solid #355986; background:#F9F9E1; } .Sapro9516184{padding-top:1px; color:maroon; font-size:0.8em; text-align:left; vertical-align:middle; border-top:1.0pt solid #355986; border-right:1.5pt solid #355986; background:#F9F9E1; } .Sapro9616184{padding-top:1px; font-size:12.0pt; font-family:Calibri, sans-serif; vertical-align:bottom; } .Sapro9716184{padding-top:1px; color:white; font-size:10.0pt; text-align:center; vertical-align:middle; border-top:1.0pt solid white; border-right:1.0pt solid white; border-left:1.5pt solid #355986; background:#355986; } .Sapro9816184{padding-top:1px; color:white; font-size:10.0pt; text-align:center; vertical-align:middle; border-top:1.0pt solid white; border-right:1.0pt solid white; border-left:1.0pt solid white; background:#355986; } .Sapro10016184{padding-top:1px; font-size:0.8em; text-align:left; vertical-align:middle; border-top:1.0pt solid #355986; border-left:1.5pt solid #355986; background:#D9D9D9; white-space:normal;} .Sapro10116184{padding-top:1px; font-size:0.8em; text-align:left; vertical-align:middle; border-top:1.0pt solid #355986; background:#D9D9D9; white-space:normal;} .Sapro10216184{padding-top:1px; font-size:0.8em; text-align:left; vertical-align:middle; border-top:1.0pt solid #355986; border-left:1.0pt solid #355986; background:#D9D9D9; white-space:normal;} .Sapro10316184{padding-top:1px; font-size:0.8em; text-align:left; vertical-align:middle; border-left:1.5pt solid #355986; background:#D9D9D9; white-space:normal;} .Sapro10516184{padding-top:1px; font-size:0.8em; text-align:left; vertical-align:middle; border-left:1.0pt solid #355986; background:#D9D9D9; white-space:normal;} .Sapro10616184{padding-top:1px; font-size:0.8em; text-align:left; vertical-align:middle; border-left:1.0pt solid #355986; white-space:normal;} .Sapro10816184{padding-top:1px; font-size:0.8em; text-align:left; vertical-align:middle; border-left:1.0pt solid #355986; background:#F9F9E1; white-space:normal;} .Sapro11016184{padding-top:1px; font-size:0.8em; text-align:left; vertical-align:middle; border-left:1.5pt solid #355986; background:#F9F9E1; white-space:normal;} .Sapro11216184{padding-top:1px; font-size:0.8em; text-align:left; vertical-align:middle; border-top:1.0pt solid #355986; border-left:1.0pt solid #355986; background:#D9D9D9; } .Sapro11316184{padding-top:1px; font-size:0.8em; text-align:left; vertical-align:middle; border-top:1.0pt solid #355986; border-right:1.5pt solid #355986; background:#D9D9D9; white-space:normal;} .Sapro11416184{padding-top:1px; font-size:0.8em; text-align:left; vertical-align:middle; border-bottom:1.5pt solid #355986; border-left:1.5pt solid #355986; background:#F9F9E1; white-space:normal;} .Sapro11616184{padding-top:1px; font-size:0.8em; text-align:left; vertical-align:middle; border-bottom:1.5pt solid #355986; border-left:1.0pt solid #355986; white-space:normal;} .Sapro11816184{padding-top:1px; font-size:0.8em; text-align:left; vertical-align:middle; border-bottom:1.5pt solid #355986; border-left:1.0pt solid #355986; background:#D9D9D9; white-space:normal;} .Sapro12116184{padding-top:1px; color:white; font-size:12.0pt; text-align:center; vertical-align:middle; border-bottom:1.0pt solid white; background:#355986; } .Sapro12216184{padding-top:1px; color:#CDCDCD; font-size:0.8em; text-align:right; vertical-align:bottom; border-bottom:1.0pt solid white; background:#355986; } .Sapro12416184{padding-top:1px; color:#CDCDCD; font-size:0.8em; text-align:left; vertical-align:bottom; border-bottom:1.0pt solid white; background:#355986; } </style>
+						
+						<style> #Calendar {font-family:Arial, sans-serif;}  #Calendar h1 {font-family:Arial, Helvetica, sans-serif; font-size:12.0pt; font-weight:400; margin-top:0px; margin-bottom:0px;  font-weight:normal;} .monthNoCol { width: 3.2%} .monthTxtCol { width: 10.9%;} .Sapro9016156{padding-top:1px; color:navy; font-size:11.0pt; font-weight:700; text-align:center; vertical-align:middle; border-top:1.0pt solid #355986; border-left:1.5pt solid #355986; background:#F9F9E1; } .Sapro9116156{padding-top:1px; color:maroon; font-size:0.8em; text-align:left; vertical-align:middle; border-top:1.0pt solid #355986; background:#F9F9E1; } .Sapro9216156{padding-top:1px; color:navy; font-size:11.0pt; font-weight:700; text-align:center; vertical-align:middle; border-top:1.0pt solid #355986; border-left:1.0pt solid #355986; } .Sapro9316156{padding-top:1px; color:maroon; font-size:0.8em; text-align:left; vertical-align:middle; border-top:1.0pt solid #355986; } .Sapro9416156{padding-top:1px; color:navy; font-size:11.0pt; font-weight:700; text-align:center; vertical-align:middle; border-top:1.0pt solid #355986; border-left:1.0pt solid #355986; background:#F9F9E1; } .Sapro9516156{padding-top:1px; color:maroon; font-size:0.8em; text-align:left; vertical-align:middle; border-top:1.0pt solid #355986; border-right:1.5pt solid #355986; background:#F9F9E1; } .Sapro9616156{padding-top:1px; font-size:12.0pt; font-family:Calibri, sans-serif; vertical-align:bottom; } .Sapro9716156{padding-top:1px; color:white; font-size:10.0pt; text-align:center; vertical-align:middle; border-top:1.0pt solid white; border-right:1.0pt solid white; border-left:1.5pt solid #355986; background:#355986; } .Sapro9816156{padding-top:1px; color:white; font-size:10.0pt; text-align:center; vertical-align:middle; border-top:1.0pt solid white; border-right:1.0pt solid white; border-left:1.0pt solid white; background:#355986; } .Sapro10016156{padding-top:1px; color:#003366; font-size:6.0pt; text-align:left; vertical-align:bottom; border-bottom:1.5pt solid #355986; background:#D9D9D9; white-space:normal;} .Sapro10216156{padding-top:1px; font-size:0.8em; text-align:left; vertical-align:middle; border-top:1.0pt solid #355986; border-left:1.5pt solid #355986; background:#D9D9D9; white-space:normal;} .Sapro10316156{padding-top:1px; font-size:0.8em; text-align:left; vertical-align:middle; border-top:1.0pt solid #355986; background:#D9D9D9; white-space:normal;} .Sapro10416156{padding-top:1px; font-size:0.8em; text-align:left; vertical-align:middle; border-top:1.0pt solid #355986; border-left:1.0pt solid #355986; background:#D9D9D9; white-space:normal;} .Sapro10516156{padding-top:1px; font-size:0.8em; text-align:left; vertical-align:middle; border-left:1.5pt solid #355986; background:#D9D9D9; white-space:normal;} .Sapro10716156{padding-top:1px; font-size:0.8em; text-align:left; vertical-align:middle; border-left:1.0pt solid #355986; background:#D9D9D9; white-space:normal;} .Sapro10816156{padding-top:1px; font-size:0.8em; text-align:left; vertical-align:middle; border-left:1.0pt solid #355986; white-space:normal;} .Sapro11016156{padding-top:1px; font-size:0.8em; text-align:left; vertical-align:middle; border-left:1.0pt solid #355986; background:#F9F9E1; white-space:normal;} .Sapro11216156{padding-top:1px; font-size:0.8em; text-align:left; vertical-align:middle; border-left:1.5pt solid #355986; background:#F9F9E1; white-space:normal;} .Sapro11416156{padding-top:1px; font-size:0.8em; text-align:left; vertical-align:middle; border-top:1.0pt solid #355986; border-left:1.0pt solid #355986; background:#D9D9D9; } .Sapro11516156{padding-top:1px; font-size:0.8em; text-align:left; vertical-align:middle; border-top:1.0pt solid #355986; border-right:1.5pt solid #355986; background:#D9D9D9; white-space:normal;} .Sapro11616156{padding-top:1px; font-size:0.8em; text-align:left; vertical-align:middle; border-bottom:1.5pt solid #355986; border-left:1.5pt solid #355986; background:#F9F9E1; white-space:normal;} .Sapro11816156{padding-top:1px; font-size:0.8em; text-align:left; vertical-align:middle; border-bottom:1.5pt solid #355986; border-left:1.0pt solid #355986; white-space:normal;} .Sapro12016156{padding-top:1px; font-size:0.8em; text-align:left; vertical-align:middle; border-bottom:1.5pt solid #355986; border-left:1.0pt solid #355986; background:#D9D9D9; white-space:normal;} .Sapro12116156{padding-top:1px; font-size:0.8em; text-align:left; vertical-align:middle; border-bottom:1.5pt solid #355986; background:#D9D9D9; white-space:normal;} .Sapro12316156{padding-top:1px; color:white; font-size:12.0pt; text-align:center; vertical-align:middle; border-bottom:1.0pt solid white; background:#ddf; } .Sapro12416156{padding-top:1px; color:#CDCDCD; font-size:0.8em; text-align:right; vertical-align:bottom; border-bottom:1.0pt solid white; background:#ddf; } .Sapro12616156{padding-top:1px; color:#CDCDCD; font-size:0.8em; text-align:left; vertical-align:bottom; border-bottom:1.0pt solid white; background:#ddf; } </style>
+
+						<table id='Calendar' data-month=201702 border=0 cellpadding=0 cellspacing=0 style='border-collapse: collapse; width:80%; table-layout:fixed;'>
+						 <colgroup>
+						  <col class='monthNoCol'><col class='monthTxtCol'>
+						  <col class='monthNoCol'><col class='monthTxtCol'>
+						  <col class='monthNoCol'><col class='monthTxtCol'>
+						  <col class='monthNoCol'><col class='monthTxtCol'>
+						  <col class='monthNoCol'><col class='monthTxtCol'>
+						  <col class='monthNoCol'><col class='monthTxtCol'>
+						  <col class='monthNoCol'><col class='monthTxtCol'>
+						</colgroup>
+						<tr class=Sapro9616156 height=25>
+						  <td colspan=4 height=25 class=Sapro12616156 style='height:18.75pt;'></td>
+						  <td colspan=6 class=Sapro12316156 style="text-align: center;"><h1 style='font-size:1.1em;'><b>February - March 2017</b></h1></td>
+						  <td colspan=4 class=Sapro12416156></td>
+						 </tr>
+						 <tr height=21 style='height:15.75pt'>
+						  <td colspan=2 height=21 class=Sapro9716156 style='height:15.75pt'>Sun</td>
+						  <td colspan=2 class=Sapro9816156 style='border-left:none'>Mon</td>
+						  <td colspan=2 class=Sapro9816156 style='border-left:none'>Tue</td>
+						  <td colspan=2 class=Sapro9816156 style='border-left:none'>Wed</td>
+						  <td colspan=2 class=Sapro9816156 style='border-left:none'>Thu</td>
+						  <td colspan=2 class=Sapro9816156 style='border-left:none'>Fri</td>
+						  <td colspan=2 class=Sapro9816156 style='border-right:1.5pt solid #355986; border-left:none'>Sat</td>
+						 </tr>
+
+						 <tr height=18>
+						  <td colspan=2 height=18 class=Sapro11216156 style='height:13.5pt;'></td>
+						  <td colspan=2 class=Sapro10816156></td>
+						  <td colspan=2 class=Sapro10816156></td>
+						  <td colspan=2 class=Sapro10816156></td>
+						  <td colspan=2 class=Sapro10816156></td>
+						  <td colspan=2 class=Sapro10816156></td>
+						  <td colspan=2 class=Sapro11016156 style='border-right:1.5pt solid #355986;'></td>
+						 </tr>
+						 <tr height=20>
+						  <td height=20 class=Sapro9016156 style='height:15.0pt'>12</td>
+						  <td class=Sapro9116156> </td>
+						  <td class=Sapro9216156>13</td>
+						  <td class=Sapro9316156> </td>
+						  <td class=Sapro9216156>14</td>
+						  <td class=Sapro9316156> </td>
+						  <td class=Sapro9216156 style="background-color: #dd0;">15</td>
+						  <td class=Sapro9316156 style="background-color: #dd0;"> </td>
+						  <td class=Sapro9216156>16</td>
+						  <td class=Sapro9316156> </td>
+						  <td class=Sapro9216156>17</td>
+						  <td class=Sapro9316156> </td>
+						  <td class=Sapro9416156>18</td>
+						  <td class=Sapro9516156> </td>
+						 </tr>
+						 <tr height=18>
+						  <td colspan=2 height=18 class=Sapro11216156 style='height:13.5pt;'></td>
+						  <td colspan=2 class=Sapro10816156></td>
+						  <td colspan=2 class=Sapro10816156></td>
+						  <td colspan=2 class=Sapro10816156 style="background-color: #dd0;text-align: center;">today</td>
+						  <td colspan=2 class=Sapro10816156></td>
+						  <td colspan=2 class=Sapro10816156></td>
+						  <td colspan=2 class=Sapro11016156 style='border-right:1.5pt solid #355986;'></td>
+						 </tr>
+						 <tr height=20>
+						  <td height=20 class=Sapro9016156 style='height:15.0pt'>19</td>
+						  <td class=Sapro9116156> </td>
+						  <td class=Sapro9216156>20</td>
+						  <td class=Sapro9316156> </td>
+						  <td class=Sapro9216156>21</td>
+						  <td class=Sapro9316156> </td>
+						  <td class=Sapro9216156 style="background-color: #ee9;">22</td>
+						  <td class=Sapro9316156 style="background-color: #ee9;"> </td>
+						  <td class=Sapro9216156 style="background-color: #ee9;">23</td>
+						  <td class=Sapro9316156 style="background-color: #ee9;"> </td>
+						  <td class=Sapro9216156 style="background-color: #ee9;">24</td>
+						  <td class=Sapro9316156 style="background-color: #ee9;"> </td>
+						  <td class=Sapro9416156>25</td>
+						  <td class=Sapro9516156> </td>
+						 </tr>
+						 <tr height=18>
+						  <td colspan=2 height=18 class=Sapro11216156 style='height:13.5pt;'></td>
+						  <td colspan=2 class=Sapro10816156></td>
+						  <td colspan=2 class=Sapro10816156></td>
+						  <td colspan=6 class=Sapro10816156 style="background-color: #ee9; text-align: center;">arrange for interview</td>
+						  <td colspan=2 class=Sapro11016156 style='border-right:1.5pt solid #355986;'></td>
+						 </tr>
+						 <tr height=20>
+						  <td height=20 class=Sapro9016156 style='height:15.0pt'>26</td>
+						  <td class=Sapro9016156> </td>
+						  <td class=Sapro9216184 style="background-color: #ee9;">27</td>
+						  <td class=Sapro9316156 style="background-color: #ee9;"> </td>
+						  <td class=Sapro9216184 style="background-color: #ee9;">28</td>
+						  <td class=Sapro9316156 style="background-color: #ee9;">&nbsp;</td>
+						  <td class=Sapro921618 style="background-color: #ee9;"4>1</td>
+						  <td class=Sapro931618 style="background-color: #ee9;"4> </td>
+						  <td class=Sapro9216184 style="background-color: #ee9;">2</td>
+						  <td class=Sapro9316184 style="background-color: #ee9;"> </td>
+						  <td class=Sapro9216184 style="background-color: #ee9;">3</td>
+						  <td class=Sapro9316184 style="background-color: #ee9;"> </td>
+						  <td class=Sapro9416184>4</td>
+						  <td class=Sapro9516184> </td>
+						 </tr>
+						 <tr height=18>
+						  <td colspan=2 height=18 class=Sapro9016156 style='height:13.5pt;'> </td>
+						  <td colspan=10 class=Sapro10616184 style="background-color: #ee9; text-align: center;">arrange for interview</td>
+						  <td colspan=2 class=Sapro10816184 style='border-right:1.5pt solid #355986;'></td>
+						 </tr>
+						 <tr height=20>
+						  <td height=20 class=Sapro9016184 style='height:15.0pt'>5</td>
+						  <td class=Sapro9116184> </td>
+						  <td class=Sapro9216184>6</td>
+						  <td class=Sapro9316184> </td>
+						  <td class=Sapro9216184>7</td>
+						  <td class=Sapro9316184> </td>
+						  <td class=Sapro9216184>8</td>
+						  <td class=Sapro9316184> </td>
+						  <td class=Sapro9216184>9</td>
+						  <td class=Sapro9316184> </td>
+						  <td class=Sapro9216184 style="background-color: #d70;">10</td>
+						  <td class=Sapro9316184 style="background-color: #d70;"> </td>
+						  <td class=Sapro9416184>11</td>
+						  <td class=Sapro9516184> </td>
+						 </tr>
+						 <tr height=18>
+						  <td colspan=2 height=18 class=Sapro11016184 style='height:13.5pt;'></td>
+						  <td colspan=2 class=Sapro10616184></td>
+						  <td colspan=2 class=Sapro10616184></td>
+						  <td colspan=2 class=Sapro10616184></td>
+						  <td colspan=2 class=Sapro10616184></td>
+						  <td colspan=2 class=Sapro10616184 style="background-color: #d40;">Midterm Due</td>
+						  <td colspan=2 class=Sapro10816184 style='border-right:1.5pt solid #355986;'></td>
+						 </tr>
+						 <tr height=20>
+						  <td height=20 class=Sapro9016184 style='height:15.0pt'>12</td>
+						  <td class=Sapro9116184> </td>
+						  <td class=Sapro9216184 style="background-color: #ddf;">13</td>
+						  <td class=Sapro9316184 style="background-color: #ddf;"> </td>
+						  <td class=Sapro9216184 style="background-color: #ddf;">14</td>
+						  <td class=Sapro9316184 style="background-color: #ddf;"> </td>
+						  <td class=Sapro9216184 style="background-color: #ddf;">15</td>
+						  <td class=Sapro9316184 style="background-color: #ddf;"> </td>
+						  <td class=Sapro9216184 style="background-color: #ddf;">16</td>
+						  <td class=Sapro9316184 style="background-color: #ddf;"> </td>
+						  <td class=Sapro9216184 style="background-color: #ddf;">17</td>
+						  <td class=Sapro9316184 style="background-color: #ddf;"> </td>
+						  <td class=Sapro9416184>18</td>
+						  <td class=Sapro9516184> </td>
+						 </tr>
+						 <tr height=18>
+						  <td colspan=2 height=18 class=Sapro11016184 style='height:13.5pt;'></td>
+						  <td colspan=10 class=Sapro10616184 style="background-color: #ddf; text-align: center">Spring Break</td>
+						  <td colspan=2 class=Sapro10816184 style='border-right:1.5pt solid #355986;'></td>
+						 </tr>
+						</table>
+					</div><br><br><br>
 				</section>
 				
                 <section>
