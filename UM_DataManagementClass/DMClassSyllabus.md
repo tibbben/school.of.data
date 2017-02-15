@@ -309,6 +309,8 @@ here?*
 -   Alexandra Simperler, Greg Wilson (2015). Software Carpentry get more
     done in less time.
     [*http://arxiv.org/abs/1506.02575*](http://arxiv.org/abs/1506.02575).
+	
+	 [...](lessons/lesson07.html)
 
 *__Week 8:__ Metadata and Contextual Details* \[ TURN IN MIDTERM PROJECT \]
 
@@ -357,6 +359,8 @@ here?*
     [*https://www.fgdc.gov/metadata/documents/workbook\_0501\_bmk.pdf*](https://www.fgdc.gov/metadata/documents/workbook_0501_bmk.pdf).
 
 > Assignment \#3: Choose one of the following: (1) Create metadata for your research data using an existing schema (2) create a metadata schema for your data.
+
+ [...](lessons/lesson08.html)
 
 *__++++++++++  Spring Break  ++++++++++__*
 
