@@ -352,7 +352,7 @@ here?*
     [*http://cfconventions.org/Data/cf-conventions/cf-conventions-1.6/build/cf-conventions.pdf*](http://cfconventions.org/Data/cf-conventions/cf-conventions-1.6/build/cf-conventions.pdf).
 -   \[ for marine geology: read the introduction through chapter 6 \]
     Norris, M.W.; Faichney, A.K. (Eds.) (2002). SEG Y rev1 Data Exchange format
-    [_http://www.seg.org/documents/10161/77915/seg_y_rev1.pdf_](http://www.seg.org/documents/10161/77915/seg_y_rev1.pdf)
+    [_http://www.seg.org/documents/10161/77915/seg\_y\_rev1.pdf_](http://www.seg.org/documents/10161/77915/seg_y_rev1.pdf)
 -   \[ for geographic data: read the introduction through page 31 \]
     FGDC (2000). Content Standard for Digital Geospatial Metadata
     Workbook, Version 2.0.
