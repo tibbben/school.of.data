@@ -310,7 +310,7 @@ here?*
     done in less time.
     [*http://arxiv.org/abs/1506.02575*](http://arxiv.org/abs/1506.02575).
 	
-	 [...](lessons/lesson07.html)
+> [slide deck](slides/slides07.html) [...](lessons/lesson07.html)	
 
 *__Week 8:__ Metadata and Contextual Details* \[ TURN IN MIDTERM PROJECT \]
 
@@ -352,7 +352,7 @@ here?*
     [*http://cfconventions.org/Data/cf-conventions/cf-conventions-1.6/build/cf-conventions.pdf*](http://cfconventions.org/Data/cf-conventions/cf-conventions-1.6/build/cf-conventions.pdf).
 -   \[ for marine geology: read the introduction through chapter 6 \]
     Norris, M.W.; Faichney, A.K. (Eds.) (2002). SEG Y rev1 Data Exchange format
-    [*http://www.seg.org/documents/10161/77915/seg_y_rev1.pdf*](http://www.seg.org/documents/10161/77915/seg_y_rev1.pdf)
+    [_http://www.seg.org/documents/10161/77915/seg_y_rev1.pdf_](http://www.seg.org/documents/10161/77915/seg_y_rev1.pdf)
 -   \[ for geographic data: read the introduction through page 31 \]
     FGDC (2000). Content Standard for Digital Geospatial Metadata
     Workbook, Version 2.0.
@@ -360,7 +360,7 @@ here?*
 
 > Assignment \#3: Choose one of the following: (1) Create metadata for your research data using an existing schema (2) create a metadata schema for your data.
 
- [...](lessons/lesson08.html)
+> [slide deck](slides/slides08.html) [...](lessons/lesson08.html)	
 
 *__++++++++++  Spring Break  ++++++++++__*
 
@@ -373,6 +373,8 @@ here?*
 -  open a pull request, collaborate, push to github
 
 > This is a hands on lab week based on the Software Carpentry lesson: [*http://swcarpentry.github.io/git-novice/*](http://swcarpentry.github.io/git-novice/)
+
+> [slide deck](slides/slides09.html) [...](lessons/lesson09.html)	
 
 *__Week 10:__ Introduction to R*
 
@@ -388,6 +390,8 @@ here?*
 > DO THE TUTORIAL BEFORE CLASS \]
 > [*http://www.propublica.org/nerds/item/using-google-refine-for-data-cleaning*](http://www.propublica.org/nerds/item/using-google-refine-for-data-cleaning).
 
+> [slide deck](slides/slides10.html) [...](lessons/lesson10.html)	
+
 *__Week 11:__ Finding and Cleaning Data*  \[ TURN IN ASSIGNMENT \# 4 \]
 
 > Identify difficulties in acquiring and cleaning data.
@@ -396,7 +400,9 @@ here?*
 -   Use online tools for data cleaning
 -   Use offline tools for data cleaning
 
-> If time permits we will do an introductory lab on Structured Query Language (SQL) [*http://swcarpentry.github.io/sql-novice-survey/*](http://swcarpentry.github.io/sql-novice-survey/).
+> If time permits we will do an introductory lab on Structured Query Language (SQL) [*http://swcarpentry.github.io/sql-novice-survey/*](http://swcarpentry.github.io/sql-novice-survey
+
+> [slide deck](slides/slides11.html) [...](lessons/lesson11.html)	
 
 *__Week 12:__ Introduction to Python*
 
@@ -407,6 +413,8 @@ here?*
 -  make a simple graphic
 
 > This is a hands on lab week based in the Software Carpentry lesson: [*http://swcarpentry.github.io/python-novice-inflammation/*](http://swcarpentry.github.io/python-novice-inflammation/)
+
+> [slide deck](slides/slides12.html) [...](lessons/lesson12.html)	
 
 *__Week 13:__ Repository Identification / Preparation for Preservation /
 Unique Identifiers*
@@ -431,6 +439,8 @@ Unique Identifiers*
 > [*http://www.re3data.org/*](http://www.re3data.org/) and identify
 > three potential repositories for your data deposit.
 
+> [slide deck](slides/slides13.html) [...](lessons/lesson13.html)	
+
 *__Week 14:__ The Semantic Web and Open Lab* \[ TURN IN ASSIGNMENT \#5 \]
 
 > Understand how the content of this course fits into the broader context of the semantic web.
@@ -448,5 +458,7 @@ Unique Identifiers*
 
 > The second meeting this week will be time with instructors to work on final projects. Specificially students will
 > exchange their final projects in pairs and provide immediate feedback.
+
+> [slide deck](slides/slides14.html) [...](lessons/lesson14.html)	
 
 *__Finals Week:__* \[ TURN IN FINAL PROJECT \]
