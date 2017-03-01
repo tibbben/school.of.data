@@ -324,7 +324,7 @@ here?*
 > Assigned Reading:
 
 -   Riley, “Seeing Standards.”
-    [*http://www.dlib.indiana.edu/~jenlrile/metadatamap/*](http://www.dlib.indiana.edu/~jenlrile/metadatamap/).
+    [*http://jennriley.com/metadatamap/*](http://jennriley.com/metadatamap/).
     Download and study this poster in depth.
 -   Star, Castro, *et al* (2015)*.* Achieving human and machine
     accessibility of cited data in scholarly publications. *PeerJ
@@ -351,8 +351,8 @@ here?*
     Metadata Conventions.
     [*http://cfconventions.org/Data/cf-conventions/cf-conventions-1.6/build/cf-conventions.pdf*](http://cfconventions.org/Data/cf-conventions/cf-conventions-1.6/build/cf-conventions.pdf).
 -   \[ for marine geology: read the introduction through chapter 6 \]
-    SEG (2015). SEG Y rev 2 Data Exchange Format.
-    [*http://www.seg.org/documents/51956/6062543/SEG-Y+rev+2+Draft+Jan+2015*](http://www.seg.org/documents/51956/6062543/SEG-Y+rev+2+Draft+Jan+2015)
+    Norris, M.W.; Faichney, A.K. (Eds.) (2002). SEG Y rev1 Data Exchange format
+    [*http://www.seg.org/documents/10161/77915/seg_y_rev1.pdf*](http://www.seg.org/documents/10161/77915/seg_y_rev1.pdf)
 -   \[ for geographic data: read the introduction through page 31 \]
     FGDC (2000). Content Standard for Digital Geospatial Metadata
     Workbook, Version 2.0.
