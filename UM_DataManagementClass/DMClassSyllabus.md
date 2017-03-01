@@ -336,8 +336,8 @@ here?*
 -   Curdt, Constanze, Dirk Hoffmeister, Guido Waldhoff, Christian Jekel,
     and Georg Bareth. "Scientific Research Data Management for
     Soil-Vegetation-Atmosphere Data—The TR32DB." *International Journal
-    of Digital Curation* 7, no. 2 (2012): 68-80.[
-    ](http://www.ijdc.net/index.php/ijdc/article/view/220/295)[*http://www.ijdc.net/index.php/ijdc/article/view/220/295*](http://www.ijdc.net/index.php/ijdc/article/view/220/295)
+    of Digital Curation* 7, no. 2 (2012): 68-80.
+	[*http://www.ijdc.net/index.php/ijdc/article/view/220/295*](http://www.ijdc.net/index.php/ijdc/article/view/220/295)
 -   \[ for ecology: read the introduction through to 2.3.4 \] KNB
     (no date). “Ecological Metadata Language (EML) Specification.” The
     Knowledge Network,
