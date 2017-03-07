@@ -361,7 +361,7 @@
 							    </div>
 							</td></tr></tbody></table>
                         </div>
-                    </div>../../common/
+                    </div>
 					<div style="position: absolute; bottom: -200px; left: 30px; width: 95%; text-align: left; font-size: 50%; line-height: normal;">adapted from Whitmire, Amanda L. (2014). Research Data Management Curriculum, Lecture 15: Data Preservation. Oregon State University Libraries. Retrieved 11/04/2015 from: <a href="http://figshare.com/articles/GRAD521_Research_Data_Management_Lectures/1003835"> http://figshare.com/articles/GRAD521_Research_Data_Management_Lectures/1003835</a></div>
 					<div class="fragment" style="position: absolute; top: 210px; left: 650px; "><object data="../../common/assets/arrow.svg" type="image/svg+xml"></object></div>
 			    </section>
@@ -474,24 +474,27 @@
                 </section>
 
 				<section>
-                    <div style="width: 90%; margin-right: 5%; margin-left: auto;">
-                        <span style="font-weight: bold; font-size: 110%;">Metadata you already know<br></span>
-                        <div style="font-size: 40%; text-align: center; line-height: 100%;">
-                            <img src="../../common/assets/metadataHuman.jpg" style="max-width: 1000px">
-                        </div>
-                    </div>
-					<div style="position: absolute; bottom: 0px; left: 850px; width: 100%; text-align: left; font-size: 90%; line-height: normal;">Human readable</div>
-                </section>
+					<div style="position: relative; top: -40px; left: 250px; width: 90%; height: 100%;"><iframe width="950px" height="600px" data-src="https://www.worldcat.org/search?q=isbn%3A0520023676"></iframe></div>
+					<div style="position: absolute; top: 100px; left: 50px; width: 200px; height: 400px; font-size: 90%; font-weight: bold;">Metadata you already know<br><br>Human Readable</div>
+				</section>
 				
 				<section>
-                    <div style="width: 90%; margin-right: 5%; margin-left: auto;">
-                        <span style="font-weight: bold; font-size: 110%;">Metadata you already know<br></span>
-                        <div style="font-size: 40%; text-align: center; line-height: 100%;">
-                            <img src="../../common/assets/metadataMachine.jpg" style="max-width: 1000px">
-                        </div>
-                    </div>
-					<div style="position: absolute; bottom: -60px; left: 850px; width: 100%; text-align: left; font-size: 90%; line-height: normal;">Machine readable</div>
-                </section>
+					<div style="position: relative; top: -40px; left: 400px; width: 900px; height: 100%; border: 1px solid gray; padding: 13px; background-color: #ccc; font-family: monospace; font-size: 60%; text-align: left;">
+						TY  - BOOK<br>
+						DB  - /z-wcorg/<br>
+						DP  - http://worldcat.org<br>
+						ID  - 702896<br>
+						LA  - English<br>
+						T1  - Traces on the Rhodian shore : nature and culture in Western thought from ancient times to the end of the eighteenth century<br>
+						AU  - Glacken, Clarence J.<br>
+						PB  - University of California Press<br>
+						CY  - Berkeley<br>
+						Y1  - 1973///<br>
+						SN  - 0520023676 9780520023673 0520032160 9780520032163<br>
+						ER  -
+					</div>
+					<div style="position: absolute; top: 60px; left: 50px; width: 200px; height: 400px; font-size: 90%; font-weight: bold;">Metadata you already know<br><br>Machine Readable</div>
+				</section>	
 				
                 <section>
                     <div style="width: 60%; margin-right: 20%; margin-left: auto;">
@@ -855,8 +858,40 @@
         </div>
         <script src="../../common/java/reveal.js"></script>
         <script src="../../common/java/notes.js"></script>
+	    <script src="../../common/java/head.min.js"></script>
         <script>
-            Reveal.initialize({width: 1366, height: 768, margin: 0.05});
+            Reveal.initialize({
+                width: 1366, height: 768, margin: 0.05,
+                controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				mouseWheel: true,
+				chart: {
+					defaults: { 
+						global: { 
+							defaultFontSize: 20,
+							title: { fontColor: "#333" }, 
+							legend: {
+								position: "top",
+								labels: { fontColor: "#333" },
+							},
+							tooltips: {
+								labels: { fontColor: "#333" },
+							},
+						}, 
+						scale: { 
+							scaleLabel: { fontColor: "#333" }, 
+							gridLines: { color: "#333", zeroLineColor: "#333" }, 
+							ticks: { fontColor: "#333" }, 
+						} 
+					},
+				},
+                dependencies: [
+                    { src: '../../common/java/Chart.min.js' },
+                    { src: '../../common/java/csv2chart.js' }
+                ] 
+            });
         </script>
     </body>
 </html>
