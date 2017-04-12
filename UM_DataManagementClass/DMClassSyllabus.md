@@ -358,13 +358,11 @@ here?*
     Workbook, Version 2.0.
     [*https://www.fgdc.gov/metadata/documents/workbook\_0501\_bmk.pdf*](https://www.fgdc.gov/metadata/documents/workbook_0501_bmk.pdf).
 
-> Assignment \#3: Choose one of the following: (1) Create metadata for your research data using an existing schema (2) create a metadata schema for your data.
-
 > [slide deck](slides/slides08.html) [...](lessons/lesson08.html)	
 
 *__++++++++++  Spring Break  ++++++++++__*
 
-*__Weeks 9:__ Versioning and Git (software carpentry)*  \[ TURN IN ASSIGNMENT \#3 \]
+*__Weeks 9:__ Versioning and Git (software carpentry)*
 
 > Become familiar with git and github as versioning tools.
 
@@ -374,9 +372,23 @@ here?*
 
 > This is a hands on lab week based on the Software Carpentry lesson: [*http://swcarpentry.github.io/git-novice/*](http://swcarpentry.github.io/git-novice/)
 
+> Assignment \#3: Choose one of the following: (1) Create metadata for your research data using an existing schema (2) create a metadata schema for your data.
+
 > [slide deck](slides/slides09.html) [...](lessons/lesson09.html)	
 
-*__Week 10:__ Introduction to R*
+*__Week 10:__ Introduction to Python*  \[ TURN IN ASSIGNMENT \#3 \]
+
+> Introduction to Python and Jupyter notebooks in the research environment
+
+-  Load data into the jupyter notebook environment
+-  Calculate averages
+-  make a simple graphic
+
+> This is a hands on lab week based in the Software Carpentry lesson: [*http://swcarpentry.github.io/python-novice-inflammation/*](http://swcarpentry.github.io/python-novice-inflammation/)
+
+> [slide deck](slides/slides10.html) [...](lessons/lesson10.html)	
+
+*__Week 11:__ Introduction to R*
 
 > Introduction to R in the research environment
 
@@ -386,44 +398,37 @@ here?*
 
 > This is a hands on lab week based in the Software Carpentry lesson: [*http://swcarpentry.github.io/r-novice-inflammation/*](http://swcarpentry.github.io/r-novice-inflammation/)
 
-> Assignment \#4: Nguyen. “Using Google Refine to clean messy data.” \[
-> DO THE TUTORIAL BEFORE CLASS \]
-> [*http://www.propublica.org/nerds/item/using-google-refine-for-data-cleaning*](http://www.propublica.org/nerds/item/using-google-refine-for-data-cleaning).
+> Assigned Reading:
 
-> [slide deck](slides/slides10.html) [...](lessons/lesson10.html)	
+-  Nguyen. “Using Google Refine to clean messy data.” \[DO THE TUTORIAL BEFORE CLASS \]  
+[*http://www.propublica.org/nerds/item/using-google-refine-for-data-cleaning*](http://www.propublica.org/nerds/item/using-google-refine-for-data-cleaning).
 
-*__Week 11:__ Finding and Cleaning Data*  \[ TURN IN ASSIGNMENT \# 4 \]
+> Assignment \#4: 
 
-> Identify difficulties in acquiring and cleaning data.
-
--   Understand challenges of acquiring data online
--   Use online tools for data cleaning
--   Use offline tools for data cleaning
-
-> If time permits we will do an introductory lab on Structured Query Language (SQL) [*http://swcarpentry.github.io/sql-novice-survey/*](http://swcarpentry.github.io/sql-novice-survey
+-  Git Hub 
+  -  "fork" Tim's [*https://github.com/tibbben/guacamole*](https://github.com/tibbben/guacamole) repository  
+  -  make some changes to the recipe or instructions  
+  -  make a "pull request" to merge your "fork" with the "master" branch  
+  -  NOTE: you can do this from github.com or on the command line  
+  
+-  Python
+  -  complete the creating functions lesson on your own (use a new jupyter notebook)
+  -  send the ipynb file to tnorris@miami.edu and aclark@rsmas.miami.edu 
+  
+-  R
+  -  complete the command-line programs lesson on your own
+  -  send your complete script "something.R" to tnorris@miami.edu and aclark@rsmas.miami.edu
+  -  NOTE: you can do this either in the R Studio or in the simple command line version of R with a text editor 
 
 > [slide deck](slides/slides11.html) [...](lessons/lesson11.html)	
 
-*__Week 12:__ Introduction to Python*
+*__Week 12:__ Finding and Cleaning Data / Repository Identification / Preparation for Preservation* 
 
-> Introduction to Python and Jupyter notebooks in the research environment
+> Identify difficulties in acquiring and cleaning data.  
+> Identify appropriate repositories.  
 
--  Load data into the R environment
--  Calculate averages
--  make a simple graphic
-
-> This is a hands on lab week based in the Software Carpentry lesson: [*http://swcarpentry.github.io/python-novice-inflammation/*](http://swcarpentry.github.io/python-novice-inflammation/)
-
-> [slide deck](slides/slides12.html) [...](lessons/lesson12.html)	
-
-*__Week 13:__ Repository Identification / Preparation for Preservation /
-Unique Identifiers*
-
-> Identify appropriate discipline specific or institutional data
-> repositories
-
--   Prepare data for deposit.
--   Cite deposited data correctly
+-   Understand challenges of acquiring data online
+-   Prepare data for deposit
 
 > Assigned Reading:
 
@@ -438,6 +443,17 @@ Unique Identifiers*
 > Assignment \#5: Explore
 > [*http://www.re3data.org/*](http://www.re3data.org/) and identify
 > three potential repositories for your data deposit.
+
+> [slide deck](slides/slides12.html) [...](lessons/lesson12.html)	
+
+*__Week 13:__ Introduction to Structureds Query Language (SQL)* \[ TURN IN ASSIGNMENT \# 4 \]
+
+> Able to describe relational database and use SQL to construct querys
+
+-   Understand command line database server interactions with SQL
+-   Navegate Microsoft Access
+
+> This is a hands on lab week based in the Software Carpentry lesson: [*http://swcarpentry.github.io/sql-novice-survey/*](http://swcarpentry.github.io/sql-novice-survey/)
 
 > [slide deck](slides/slides13.html) [...](lessons/lesson13.html)	
 
