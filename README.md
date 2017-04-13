@@ -29,11 +29,13 @@ Please see the full license terms here: https://creativecommons.org/licenses/by/
 
 Some of the material in this repository is drawn from:
 
-> The DataONE Education Modules: [https://www.dataone.org/education-modules](https://www.dataone.org/education-modules)
+-  The DataONE Education Modules: [https://www.dataone.org/education-modules](https://www.dataone.org/education-modules)
 
-> The MANTRA Research Data Management Training online course at the University of Edinburgh: [http://datalib.edina.ac.uk/mantra/](http://datalib.edina.ac.uk/mantra/)
+-  The MANTRA Research Data Management Training online course at the University of Edinburgh: [http://datalib.edina.ac.uk/mantra/](http://datalib.edina.ac.uk/mantra/)
 
-> Whitmire, A. (2014). GRAD 521 Research Data Management Syllabus and Lesson Plans [http://dx.doi.org/10.6084/m9.figshare.1003834](http://dx.doi.org/10.6084/m9.figshare.1003834), Assignments [http://dx.doi.org/10.6084/m9.figshare.1003852](http://dx.doi.org/10.6084/m9.figshare.1003852), and Lectures [http://dx.doi.org/10.6084/m9.figshare.1003835](http://dx.doi.org/10.6084/m9.figshare.1003835).
+-  Whitmire, A. (2014). GRAD 521 Research Data Management Syllabus and Lesson Plans ([http://dx.doi.org/10.6084/m9.figshare.1003834](http://dx.doi.org/10.6084/m9.figshare.1003834)), Assignments ([http://dx.doi.org/10.6084/m9.figshare.1003852](http://dx.doi.org/10.6084/m9.figshare.1003852)), and Lectures ([http://dx.doi.org/10.6084/m9.figshare.1003835](http://dx.doi.org/10.6084/m9.figshare.1003835)).
+
+The repository was created by Tim Norris with help and inspiriation from many others including Elizabeth Fish, Angela Clark, and all the students who have participated in the seminar.
 
 ---
 
