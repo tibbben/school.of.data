@@ -35,6 +35,10 @@ Some of the material in this repository is drawn from:
 
 -  Whitmire, A. (2014). GRAD 521 Research Data Management Syllabus and Lesson Plans ([http://dx.doi.org/10.6084/m9.figshare.1003834](http://dx.doi.org/10.6084/m9.figshare.1003834)), Assignments ([http://dx.doi.org/10.6084/m9.figshare.1003852](http://dx.doi.org/10.6084/m9.figshare.1003852)), and Lectures ([http://dx.doi.org/10.6084/m9.figshare.1003835](http://dx.doi.org/10.6084/m9.figshare.1003835)).
 
+-  Software Carpentry: [https://software-carpentry.org/](https://software-carpentry.org/)
+
+-  Heard Library at Vanderbilt University: [https://github.com/HeardLibrary](https://github.com/HeardLibrary)
+
 The repository was created by Tim Norris with help and inspiriation from many others including Elizabeth Fish, Angela Clark, and all the students who have participated in the seminar.
 
 ---
